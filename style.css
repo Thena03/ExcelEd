@@ -5,7 +5,6 @@ html, body {
   padding: 0;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -17,15 +16,41 @@ body {
   animation: gradientMove 15s ease infinite;
 }
 
-
 main {
   width: 100%;
   flex-grow: 1;
 }
 
-
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
+}
+
+/* ---------------------------------------- */
+/* GREEN LESSON BLOCKS (just add this part) */
+/* ---------------------------------------- */
+
+.lesson-block {
+  background-color: #d9f5d9;   /* soft green */
+  border: 2px solid #8ecf8e;  /* medium green */
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+  max-width: 900px;           /* optional: clean centered R-tutorial look */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Optional matching header/footer styles */
+header, footer {
+  text-align: center;
+  padding: 15px 0;
+}
+
+header a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2d7a2d;
+  text-decoration: none;
+  font-weight: 500;
 }
