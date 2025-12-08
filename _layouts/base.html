@@ -55,7 +55,7 @@
 
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="md:hidden hidden px-2 pt-2 pb-3 space-y-1 bg-green-50">
-    {% assign lessons_by_folder = site.pages | where_exp:"page","page.path contains 'lessons/' and page.path != 'lessons/index.md'" | group_by_exp:"page","page.path | split:'/' | slice:1,1 | first" %}
+    {% assign lessons_by_folder = site.pages | where_exp:"page","page.path contains 'lessons/' and page.path != 'lessons/lessonpage.md'" | group_by_exp:"page","page.path | split:'/' | slice:1,1 | first" %}
     {% for folder in lessons_by_folder %}
       <div class="px-3 py-2 font-semibold text-green-700">{{ folder.name | capitalize }}</div>
       {% for lesson in folder.items %}
