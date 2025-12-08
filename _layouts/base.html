@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ page.title | default: "Excelerate " }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: "Excelerate" }}</title>
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -13,66 +13,76 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
 </head>
 <body class="bg-gradient-to-br from-green-50 via-white to-green-100 min-h-screen flex flex-col">
- <!-- Navbar -->
-<nav class="bg-green-100/90 backdrop-blur-md shadow-md fixed w-full z-40">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex justify-between h-16 items-center">
 
-      <!-- Logo + Title -->
-      <span class="font-bold text-green-800 text-xl">Excelerate</span>
+  <!-- Navbar -->
+  <nav class="bg-green-100/90 backdrop-blur-md shadow-md fixed w-full z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
 
-      <!-- Desktop Menu -->
-      <div class="hidden md:flex space-x-6">
-        <!-- Lessons Dropdown -->
-        <div class="relative group">
-          <a href="{{ '/lessons' | relative_url }}" class="text-green-800 hover:text-green-600 font-medium">Lessons</a>
-          <div class="absolute left-0 hidden group-hover:block bg-white shadow-md mt-2 rounded max-h-96 overflow-y-auto z-50">
-            {% assign lessons_by_folder = site.pages | where_exp:"page","page.path contains 'lessons/' and page.path != 'lessons/index.md'" | group_by_exp:"page","page.path | split:'/' | slice:1,1 | first" %}
-            {% for folder in lessons_by_folder %}
-              <div class="px-4 py-2 font-semibold text-green-700">{{ folder.name | capitalize }}</div>
-              {% for lesson in folder.items %}
-                <a href="{{ lesson.url | relative_url }}" class="block px-6 py-2 hover:bg-green-100">{{ lesson.title }}</a>
+        <!-- Logo + Title -->
+        <span class="font-bold text-green-800 text-xl">Excelerate</span>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex space-x-6">
+          <!-- Lessons Dropdown -->
+          <div class="relative group">
+            <a href="{{ '/lessons' | relative_url }}" class="text-green-800 hover:text-green-600 font-medium">Lessons</a>
+            <div class="absolute left-0 hidden group-hover:block bg-white shadow-md mt-2 rounded max-h-96 overflow-y-auto z-50">
+              {% assign lessons_by_folder = site.pages | where_exp:"page","page.path contains 'lessons/' and page.path != 'lessons/index.md'" | group_by_exp:"page","page.path | split:'/' | slice:1,1 | first" %}
+              {% for folder in lessons_by_folder %}
+                <div class="px-4 py-2 font-semibold text-green-700">{{ folder.name | capitalize }}</div>
+                {% for lesson in folder.items %}
+                  <a href="{{ lesson.url | relative_url }}" class="block px-6 py-2 hover:bg-green-100">{{ lesson.title }}</a>
+                {% endfor %}
               {% endfor %}
-            {% endfor %}
+            </div>
           </div>
+
+          <a href="{{ '/resources' | relative_url }}" class="text-green-800 hover:text-green-600 font-medium">Resources</a>
         </div>
 
-        <!-- Other Links -->
-        <a href="{{ '/resources' | relative_url }}" class="text-green-800 hover:text-green-600 font-medium">Resources</a>
-      </div>
-
-      <!-- Mobile Menu Button -->
-      <div class="md:hidden">
-        <button id="mobile-menu-button" class="focus:outline-none">
-          <svg class="w-6 h-6 text-green-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="focus:outline-none">
+            <svg class="w-6 h-6 text-green-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Mobile Menu -->
-  <div id="mobile-menu" class="md:hidden hidden px-2 pt-2 pb-3 space-y-1 bg-green-50">
-    {% assign lessons_by_folder = site.pages | where_exp:"page","page.path contains 'lessons/' and page.path != 'lessons/lessonpage.md'" | group_by_exp:"page","page.path | split:'/' | slice:1,1 | first" %}
-    {% for folder in lessons_by_folder %}
-      <div class="px-3 py-2 font-semibold text-green-700">{{ folder.name | capitalize }}</div>
-      {% for lesson in folder.items %}
-        <a href="{{ lesson.url | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">{{ lesson.title }}</a>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden px-2 pt-2 pb-3 space-y-1 bg-green-50">
+      {% assign lessons_by_folder = site.pages | where_exp:"page","page.path contains 'lessons/' and page.path != 'lessons/index.md'" | group_by_exp:"page","page.path | split:'/' | slice:1,1 | first" %}
+      {% for folder in lessons_by_folder %}
+        <div class="px-3 py-2 font-semibold text-green-700">{{ folder.name | capitalize }}</div>
+        {% for lesson in folder.items %}
+          <a href="{{ lesson.url | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">{{ lesson.title }}</a>
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
 
-    <!-- Other Links -->
-    <a href="{{ '/resources' | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">Resources</a>
-    <a href="{{ '/profile' | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">Profile</a>
-    <a href="{{ '/logout' | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">Log Out</a>
-  </div>
-</nav>
+      <a href="{{ '/resources' | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">Resources</a>
+      <a href="{{ '/profile' | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">Profile</a>
+      <a href="{{ '/logout' | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">Log Out</a>
+    </div>
+  </nav>
 
-<!-- Mobile Menu Script -->
-<script>
-  const btn = document.getElementById('mobile-menu-button');
-  const menu = document.getElementById('mobile-menu');
-  btn.addEventListener('click', () => menu.classList.toggle('hidden'));
-</script>
+  <!-- Main content -->
+  <main class="flex-1 mt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-100 text-green-800 text-center py-4 mt-auto shadow-inner">
+    &copy; {{ site.time | date: "%Y" }} Excelerate
+  </footer>
+
+  <!-- Mobile Menu Script -->
+  <script>
+    const btn = document.getElementById('mobile-menu-button');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+  </script>
+</body>
+</html>
