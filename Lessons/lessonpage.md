@@ -5,7 +5,15 @@ title: Lessons
 
 <h1 class="text-3xl font-bold text-green-800 mb-6">Lessons</h1>
 
-{% assign lessons_by_folder = site.pages | where_exp:"page","page.path contains 'lessons/' and page.path != 'lessons/index.md'" | group_by_exp:"page","page.path | split:'/' | slice:1,1 | first" %}
+{% comment %}
+Filter out the current index page and select all pages in the lessons folder
+{% endcomment %}
+{% assign lesson_pages = site.pages | where_exp:"page","page.path contains 'lessons/' and page.path != 'lessons/index.md'" %}
+
+{% comment %}
+Group the lessons by the first folder after 'lessons/'
+{% endcomment %}
+{% assign lessons_by_folder = lesson_pages | group_by_exp:"page","page.path | split: '/' | slice:1,1 | first" %}
 
 <div class="space-y-8">
   {% for folder in lessons_by_folder %}
@@ -21,4 +29,3 @@ title: Lessons
     </div>
   {% endfor %}
 </div>
-
