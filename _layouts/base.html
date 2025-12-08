@@ -30,12 +30,18 @@
             <div class="absolute left-0 hidden group-hover:block bg-white shadow-md mt-2 rounded max-h-96 overflow-y-auto z-50">
               {% assign lesson_pages = site.pages | where_exp: "p", "p.path contains 'lessons/'" %}
               {% assign lesson_pages = lesson_pages | where_exp: "p", "p.path != 'lessons/lessonpage.md'" %}
-              {% assign lessons_by_folder = lesson_pages | group_by_exp: "p", "p.path | split:'/' | slice:1,1 | first" %}              
+              {% assign lessons_by_folder = lesson_pages | group_by_exp: "p", "p.path | split:'/' | slice:1,1 | first" %}
+              
+              {% for folder in lessons_by_folder %}
                 <div class="px-4 py-2 font-semibold text-green-700">{{ folder.name | capitalize }}</div>
+              
                 {% for lesson in folder.items %}
-                  <a href="{{ lesson.url | relative_url }}" class="block px-6 py-2 hover:bg-green-100">{{ lesson.title }}</a>
+                  <a href="{{ lesson.url | relative_url }}" class="block px-6 py-2 hover:bg-green-100">
+                    {{ lesson.title }}
+                  </a>
                 {% endfor %}
               {% endfor %}
+              
             </div>
           </div>
 
@@ -57,13 +63,18 @@
     <div id="mobile-menu" class="md:hidden hidden px-2 pt-2 pb-3 space-y-1 bg-green-50">
       {% assign lesson_pages = site.pages | where_exp: "p", "p.path contains 'lessons/'" %}
       {% assign lesson_pages = lesson_pages | where_exp: "p", "p.path != 'lessons/lessonpage.md'" %}
-      {% assign lessons_by_folder = lesson_pages | group_by_exp: "p", "p.path | split:'/' | slice:1,1 | first" %}      
+      {% assign lessons_by_folder = lesson_pages | group_by_exp: "p", "p.path | split:'/' | slice:1,1 | first" %}
+      
+      {% for folder in lessons_by_folder %}
         <div class="px-3 py-2 font-semibold text-green-700">{{ folder.name | capitalize }}</div>
+      
         {% for lesson in folder.items %}
-          <a href="{{ lesson.url | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">{{ lesson.title }}</a>
+          <a href="{{ lesson.url | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">
+            {{ lesson.title }}
+          </a>
         {% endfor %}
       {% endfor %}
-
+      
       <a href="{{ '/resources' | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">Resources</a>
       <a href="{{ '/profile' | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">Profile</a>
       <a href="{{ '/logout' | relative_url }}" class="block px-3 py-2 rounded hover:bg-green-200">Log Out</a>

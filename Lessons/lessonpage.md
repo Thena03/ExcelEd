@@ -1,6 +1,7 @@
 ---
 layout: base
 title: Lessons
+permalink: /lessons/
 ---
 
 <h1 class="text-2xl font-bold text-green-800 mb-4">Lessons</h1>
