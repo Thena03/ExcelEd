@@ -6,8 +6,8 @@ permalink: /lessons/
 
 <h1 class="text-2xl font-bold text-green-800 mb-4">Lessons</h1>
 
-{% assign lesson_pages = site.pages | where_exp: "page", "page.path contains 'lessons/'" %}
-{% assign lesson_pages = lesson_pages | where_exp: "page", "page.path != 'lessons/lessonpage.md'" %}
+{% assign lesson_pages = site.pages | where_exp: "page", "page.path contains 'Lessons/'" %}
+{% assign lesson_pages = lesson_pages | where_exp: "page", "page.path != 'Lessons/lessonpage.md'" %}
 
 {% assign lessons_by_folder = lesson_pages | group_by_exp: "page", "page.path | split: '/' | slice: 1" %}
 
