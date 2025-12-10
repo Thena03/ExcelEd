@@ -8,7 +8,7 @@ title: Intro to Excel
 Excel is a spreadsheet software created by Microsoft used for organizing, analyzing, and visualizing data. This program organizes data in columns and rows.
 <br>
 <br>
-<div class="bg-green-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h3 class="text-xl font-semibold text-center mb-4">Common Functions of Excel:</h3>
 <ul class="list-disc list-inside">
 <li>Doing math functions</li>
