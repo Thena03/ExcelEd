@@ -2,14 +2,15 @@
 layout: lesson
 title: Adding Data 
 ---
-# Adding Data 
+<h1 class="text-4xl font-bold text-center mb-4">Adding Data</h1>
 
-## Lesson Objectives
+<h3 class="text-xl font-semibold text-center mb-4">Learning Objectives</h3>
 - How to add/delete data to cells
 - Range Operation
 - Fill operation for adding data
 
-## Adding Data to a Cell
+<div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Adding Data to a Cell</h2>
 To add data to a cell, select and double click a cell. Then type in the data you would like to enter. 
 
 ![Excel Adding Data example](/images/ribbon.png)
