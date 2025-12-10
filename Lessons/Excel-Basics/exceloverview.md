@@ -85,7 +85,7 @@ New sheets can be added, removed, and renamed. To edit a sheet tab, you will rig
 <h1 class="text-4xl font-bold text-center mb-4">The Undo and Redo Functions</h1>
 The Undo function allows you to reverse an action. This function is useful when you have made a mistake in your spreadsheet and want to go back to the way the spreadsheet looked before. <br>
 
-<p class="font-semibold">Warning:</p>You cannot undo actions such as deleting a sheet or sheet tab, saving a spreadsheet, or changing the options. You can only undo things inside your spreadsheet. <br>
+<p class="font-semibold">Warning:You cannot undo actions such as deleting a sheet or sheet tab, saving a spreadsheet, or changing the options. You can only undo things inside your spreadsheet. </p> <br>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">The Undo function</h2>

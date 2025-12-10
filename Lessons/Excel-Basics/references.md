@@ -7,13 +7,15 @@ title: Relative v. Absolute References
 
 <div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
+<ul class="list-disc list-inside">
 <li> Understanding the difference between relative and absolute references </li>
 <li> Understanding the purpose behind relative references </li>
 <li> Understanding the purpose behind absolute references </li>
+</ul>
 </div>
 
 Cells have unique references (also known as their location in the spreadsheet). The two types of references in Excel are relative references and absolute references. 
-
+<br>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Relative Reference</h2>
 References are relative by default. They are marked without a dollar sign ($). This gives the fill function the freedom to continue the order in a range without restrictions. 
@@ -42,4 +44,5 @@ An absolute reference is a reference that utilizes a dollar sign. This dollar si
     - The reference is locked to the row.  
       The column remains relative (free).
     - **Example:** `A$1` </li>
+    </ul>
 </div>

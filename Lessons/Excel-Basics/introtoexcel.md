@@ -18,6 +18,8 @@ Excel is a spreadsheet software created by Microsoft used for organizing, analyz
 <li> Accounting </li>
 <li> Budgeting </li>
 <li> Visualizations </li>
-</div> <br>
+</ul>
+</div>
+ <br>
 This program runs on every device, including macOS, Windows, Android, and IOS. This allows you to easily use it for work and in your everyday life. The following modules are designed to teach you the basics of Excel and elevate your Excel skills. 
 

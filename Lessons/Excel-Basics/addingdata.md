@@ -1,5 +1,6 @@
 ---
 layout: lesson
+title: Adding Data
 ---
 <h1 class="text-4xl font-bold text-center mb-4">Adding Data</h1>
 

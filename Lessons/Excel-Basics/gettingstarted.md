@@ -5,12 +5,13 @@ title: Getting Started with Excel
 
 <h1 class="text-4xl font-bold text-center mb-4">Getting Started with Excel</h1>
 Excel can be found in many different digital forms. This tutorial will describe the various ways you can access Excel.
-
+<br>
 <div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h3 class="text-xl font-semibold mb-4">Learning Objectives</h3>
 <ul class="list-disc list-inside">
 <li> Downloading Excel </li>
 <li> Accessing Excel through different platforms </li>
+</ui>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Microsoft Office 365</h2>
@@ -33,9 +34,9 @@ After that, you are logged in and ready to work on your spreadsheet. </div>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Accessing Through the Desktop App</h2>
 
-While the browser version is the most common way Excel is used, it is limited in allowing users to use advanced Data Tools. For this reason, it may be beneficial to use the desktop version of Excel. The desktop app gives users full access to a range of formulas and functions, as well as the opportunity to work on their spreadsheet offline. 
+While the browser version is the most common way Excel is used, it is limited in allowing users to use advanced Data Tools. For this reason, it may be beneficial to use the desktop version of Excel. The desktop app gives users full access to a range of formulas and functions, as well as the opportunity to work on their spreadsheet offline. </div>
 
-<div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+
 <h2 class="text-2xl font-semibold text-center mb-4">Web Version vs. Desktop Version</h2>
 
  <table class="table-auto w-full border border-gray-300 rounded-lg shadow-sm text-left">
@@ -54,7 +55,6 @@ While the browser version is the most common way Excel is used, it is limited in
      <tr><td class="px-4 py-2 border">Cost</td><td class="px-4 py-2 border">Paid</td><td class="px-4 py-2 border">Free</td></tr>
     <tr><td class="px-4 py-2 border">Collaboration</td><td class="px-4 py-2 border">Available, but not as seamless </td><td class="px-4 py-2 border">Very easy, real-time</td></tr>
     <tr><td class="px-4 py-2 border">Embedding on a webpage</td><td class="px-4 py-2 border">No</td><td class="px-4 py-2 border">Yes</td></tr>                              
-    </div>
 
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
