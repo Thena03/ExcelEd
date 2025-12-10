@@ -9,7 +9,7 @@ title: Adding Data to Cells
 <ul class="list-disc list-inside">
 <li> How to add/delete data to cells <li>
 <li> Range Operation <li>
-<li> Fill operation for adding data <li>
+<li> Fill operation for adding data <li> </ul>
 </div> <br>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Adding Data to a Cell</h2>
