@@ -2,37 +2,44 @@
 layout: lesson
 title: Relative v. Absolute References 
 ---
-# Relative v. Absolute References 
 
-## Learning Objectives
-- Understanding the difference between relative and absolute references
+<h1 class="text-4xl font-semibold text-center mb-4">Relative v. Absolute References</h1>
+
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
+<li> Understanding the difference between relative and absolute references </li>
+<li> Understanding the purpose behind relative references </li>
+<li> Understanding the purpose behind absolute references </li>
+</div>
 
 Cells have unique references (also known as their location in the spreadsheet). The two types of references in Excel are relative references and absolute references. 
 
-## Relative Reference
+<div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Relative Reference</h2>
 References are relative by default. They are marked without a dollar sign ($). This gives the fill function the freedom to continue the order in a range without restrictions. 
-
+<br>
 ![Excel Working relative example](/images/ribbon.png)
 ![Excel error relative example](/images/ribbon.png)
+</div>
 
 
-## Absolute Reference
+<div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Absolute Reference</h2>
 An absolute reference is a reference that utilizes a dollar sign. This dollar sign indicates that the cell(s) are locked. 
 
-**The dollar sign has three different states:**
-
-  - **Column and Row**
+<p class="font-semibold">The dollar sign has three different states:</p>
+<ul class="list-disc list-inside">
+  <li class="font-semibold">Column and Row
     - The reference locks both the column and the row.
-    - **Example:** `$A$1`
+    - **Example:** `$A$1`</li>
 
-  - **Column**
+ <li class="font-semibold">Column
     - The reference is locked to the column.  
       The row remains relative (free).
-    - **Example:** `$A1`
+    - **Example:** `$A1` </li>
 
-  - **Row**
+  <li class="font-semibold">Row
     - The reference is locked to the row.  
       The column remains relative (free).
-    - **Example:** `A$1`
-
-
+    - **Example:** `A$1` </li>
+</div>

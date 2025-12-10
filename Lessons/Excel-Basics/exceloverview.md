@@ -1,15 +1,18 @@
 ---
 layout: lesson
+title: Excel Overview
 ---
 
 <h1 class="text-4xl font-bold text-center mb-4">Excel Spreadsheet Overview</h1>
 
-<h3 class="text-xl font-semibold text-center mb-4">Learning Objectives</h3>
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h3 class="text-xl font-semibold mb-4">Learning Objectives</h3>
 <ul class="list-disc list-inside">
-<li> Understanding the basic aspects of the Excel Spreadsheet <li>
-<li> Demonstrating ability to edit sheet tabs <li>
-<li> How to properly use the undo and redo functions <li>
+<li> Understanding the basic aspects of the Excel Spreadsheet </li>
+<li> Demonstrating ability to edit sheet tabs </li>
+<li> How to properly use the undo and redo functions</li>
 </ul>
+</div>
 <br>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">The Workbook</h2>
@@ -31,7 +34,7 @@ The ribbon is a row of tabs and commands at the top of the Excel workbook that h
 </p>
 <br>
 
-The ribbon has four main components:
+<p class="font-semibold">The ribbon has four main components:</p>
 <ul class="list-disc list-inside">
 <li>App Launcher - This is the Microsoft Office 365 navigation bar. This allows you to access different apps from the Microsoft Office 365 suite. </li>
 <li>Tabs - This is a menu with sub divisions sorted into groups. This allows you to navigate between menu options with various functions. </li>
