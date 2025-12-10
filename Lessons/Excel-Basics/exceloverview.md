@@ -3,17 +3,21 @@ layout: lesson
 title: Excel Overview
 ---
 
-# Excel Spreadsheet Overview
+# **Excel Spreadsheet Overview**
 
 ## Learning Objectives
 - Understanding the basic aspects of the Excel Spreadsheet
 - Demonstrating ability to edit sheet tabs
 - How to properly use the undo and redo functions
 
-## The Workbook
+<h2 align="center">The Workbook</h2>
+
 When you open a new blank workbook, you will be greeted with a large spreadsheet. The spreadsheet consists of two components: the Sheet and the Ribbon. 
 
-![Excel Workbook example](/static/workbook.png)
+<p align="center">
+  <img src="/static/workbook.png" alt="Excel Workbook example">
+</p>
+<br>
 
 ### The Ribbon
 
