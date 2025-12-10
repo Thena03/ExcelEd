@@ -29,7 +29,7 @@ References are relative by default. They are marked without a dollar sign ($). T
 <h2 class="text-2xl font-semibold text-center mb-4">Absolute Reference</h2>
 An absolute reference is a reference that utilizes a dollar sign. This dollar sign indicates that the cell(s) are locked. 
 
-<p class="font-semibold">The dollar sign has three different states:</p>
+<strong>The dollar sign has three different states:</strong>
 <ul class="list-disc list-inside">
   <li class="font-semibold">Column and Row
     - The reference locks both the column and the row.

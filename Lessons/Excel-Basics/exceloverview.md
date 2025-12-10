@@ -69,7 +69,7 @@ When opening a workbook, you start with one Sheet by default. If you want to add
   <img src="/static/adding_sheets.png" alt="Excel Adding Sheets example">
 </p>
 
-<p class="font-semibold">Tip:</p> You can use the keyboard shortcut,  <p class="font-semibold">Shift + F11</p>.
+<strong>Tip:</strong> You can use the keyboard shortcut,  <strong>Shift + F11</strong>.
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
@@ -85,7 +85,7 @@ New sheets can be added, removed, and renamed. To edit a sheet tab, you will rig
 <h1 class="text-4xl font-bold text-center mb-4">The Undo and Redo Functions</h1>
 The Undo function allows you to reverse an action. This function is useful when you have made a mistake in your spreadsheet and want to go back to the way the spreadsheet looked before. <br>
 
-<p class="font-semibold">Warning:You cannot undo actions such as deleting a sheet or sheet tab, saving a spreadsheet, or changing the options. You can only undo things inside your spreadsheet. </p> <br>
+<strong>Warning:</strong>You cannot undo actions such as deleting a sheet or sheet tab, saving a spreadsheet, or changing the options. You can only undo things inside your spreadsheet.  <br>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">The Undo function</h2>
@@ -94,7 +94,7 @@ To use the undo function, press the function in the Ribbon.
 <p align="center">
   <img src="/static/undo_function.png" alt="Excel Undo Function example">
 </p>
-<p class="font-semibold">Tip:</p> You can also use the keyboard shortcut <p class="font-semibold">CTRL + Z/Command + Z</p> to undo actions. 
+<strong>Tip:</strong> You can also use the keyboard shortcut <strong>CTRL + Z/Command + Z</strong> to undo actions. 
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
@@ -105,7 +105,7 @@ The redo function, on the other hand, reverses the Undo action. This is helpful 
   <img src="/static/redo_function.webp" alt="Excel Redo Function example">
 </p>
 
-<p class="font-semibold">Tip:</p> You can also use the keyboard shortcut, <p class="font-semibold">CTRL + Y/Command + Y</p>
+<strong>Tip:</strong> You can also use the keyboard shortcut, <strong>CTRL + Y/Command + Y</strong>
 
-<p class="font-semibold">Warning:</p>The Redo command is only available if you have used the Undo function. 
+<strong>Warning:</strong>The Redo command is only available if you have used the Undo function. 
 </div>

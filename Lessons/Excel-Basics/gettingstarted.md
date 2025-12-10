@@ -64,5 +64,5 @@ While subscriptions are necessary to access the desktop version of Excel, most c
 <br>
 Once signed in, go to the homepage and click on “Install Apps” or Install Office” in the top right corner. From the dropdown menu, select “Microsoft 365 apps.” This will install all of the Microsoft 365 apps, including Word, Excel, and PowerPoint, on your computer. Please follow the instructions given by the installer as it downloads (if applicable). 
 <br>
-<p class="font-semibold">Tip:</p>Please note that you may be prompted to sign in again to activate the apps.
+<strong>Tip:</strong>Please note that you may be prompted to sign in again to activate the apps.
 </div>

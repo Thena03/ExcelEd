@@ -16,7 +16,7 @@ title: Basic Formatting Actions
 <h2 class="text-2xl font-semibold text-center mb-4">Format Painters</h2>
 
 Format Painter is a command that allows you to copy formatting from one cell to another. This can be used to copy to single cells or ranges. To locate the Format Painter, click on its button in the Ribbon. It is located in the Clipboard group. 
-
+<br>
 Follow these steps to use the Format Painter in your spreadsheet:
 <ol class="list-decimal list-inside">
 <li> Select the cell you want to copy </li>

@@ -16,8 +16,8 @@ The most common style functions used are:
 <li> Grids </li>
 </ul>
 
-
-<p2 class="font-semibold">These style commands can be accessed through:</p>
+<br>
+<p class="font-semibold">These style commands can be accessed through:</p>
 <ol class="list-decimal list-inside">
   <li class="font-semibold">The Ribbon
     <ul class="list-disc list-inside">
