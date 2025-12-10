@@ -38,7 +38,7 @@ Range is an operation that allows you to work with selections of cells.
 <li> Selecting a cell </li>
 <li> Selecting multiple cells </li>
 <li> Selecting a column </li>
-<li> Selecting a row </li>
+<li> Selecting a row </li> </ul>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
