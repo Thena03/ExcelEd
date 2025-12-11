@@ -1,52 +1,56 @@
 ---
 layout: base
+title: Lessons
+permalink: /lessons/
 ---
 
-<article class="prose prose-green mx-auto">
-  <h1>{{ page.title }}</h1>
-  {{ content }}
-</article>
+<h1 class="text-3xl font-bold text-green-800 mb-6">Lessons</h1>
 
-<!-- Next / Previous Lesson Navigation -->
-{% assign all_lessons = site.pages 
-    | where_exp: "p", "p.path contains 'Lessons/'" 
-    | where_exp: "p", "p.path != 'Lessons/lessonpage.md'" 
-    | sort: "order" 
+{% assign lesson_pages = site.pages 
+  | where_exp: "p", "p.path contains 'Lessons/'" 
+  | where_exp: "p", "p.path != 'Lessons/lessonpage.md'" 
 %}
 
-{% assign current_index = nil %}
+{% assign lessons_by_folder = lesson_pages 
+  | group_by_exp: "p", "p.path | split: '/' | slice: 1,1 | first" 
+%}
 
-{% for lesson in all_lessons %}
-  {% if lesson.url == page.url %}
-    {% assign current_index = forloop.index0 %}
-  {% endif %}
+{% for folder in lessons_by_folder %}
+  <h2 class="text-2xl font-semibold text-green-700 mt-8 mb-4">
+    {{ folder.name | capitalize }}
+  </h2>
+
+  {% assign sorted_lessons = folder.items | sort: "order" %}
+
+  <!-- GRID: 3 columns desktop, 2 tablet, 1 mobile -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% for lesson in sorted_lessons %}
+      <a href="{{ lesson.url | relative_url }}"
+         class="block bg-white rounded-xl shadow-sm border border-green-100 p-6 hover:shadow-md hover:bg-green-50 transition">
+         
+        <h3 class="text-xl font-semibold text-green-800 mb-2">
+          {{ lesson.title }}
+        </h3>
+
+        {% if lesson.description %}
+          <p class="text-green-700 text-sm">
+            {{ lesson.description }}
+          </p>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
 {% endfor %}
 
-<div class="flex justify-between mt-12">
-  {% if current_index > 0 %}
-    {% assign prev = all_lessons[current_index | minus: 1] %}
-    <a href="{{ prev.url | relative_url }}" 
-       class="px-4 py-2 rounded-lg bg-green-100 hover:bg-green-200 text-green-800 font-medium">
-       &larr; Previous: {{ prev.title }}
-    </a>
-  {% else %}
-    <span></span>
-  {% endif %}
+<!-- Centered Buttons -->
+<div class="mt-10 flex justify-center gap-6">
+  <a href="{{ '/' | relative_url }}" 
+     class="bg-green-700 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition">
+    ← Back to Home
+  </a>
 
-  {% if current_index < all_lessons.size | minus: 1 %}
-    {% assign next = all_lessons[current_index | plus: 1] %}
-    <a href="{{ next.url | relative_url }}" 
-       class="px-4 py-2 rounded-lg bg-green-100 hover:bg-green-200 text-green-800 font-medium">
-       Next: {{ next.title }} &rarr;
-    </a>
-  {% else %}
-    <span></span>
-  {% endif %}
+  <a href="{{ '/lessons' | relative_url }}" 
+     class="bg-green-700 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition">
+    ↺ Refresh Lessons
+  </a>
 </div>
-
-<!-- Back Buttons -->
-<div class="mt-12 flex flex-col items-center gap-4">
-  <a href="{{ '/lessons' | relative_url }}" class="text-green-800 hover:text-green-600 font-medium">&larr; Back to Lessons</a>
-  <a href="{{ '/' | relative_url }}" class="text-green-800 hover:text-green-600 font-medium">&larr; Back to Home</a>
-</div>
-
