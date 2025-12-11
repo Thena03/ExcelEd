@@ -47,6 +47,7 @@ How to do it, step by step:
 <h2 class="text-2xl font-semibold text-center mb-4"> Division Operator</h2>
 Division uses the / symbol in Excel. 
   - Insert example
+  </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Dividing Using Absolute Reference</h2>

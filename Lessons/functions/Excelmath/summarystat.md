@@ -9,9 +9,9 @@ title: Excel Summary Stats Functions
 The average function is a built-in function that calculates the arithmetic mean (the average). To use this function, use `=AVERAGE`. When calculating the average, you are adding the range and dividing it by the number of values.
 <br>
 Insert example 
-</div>
 
 <strong>Please note this function ignores cells with text.</strong>
+</div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> COUNT Function</h2>

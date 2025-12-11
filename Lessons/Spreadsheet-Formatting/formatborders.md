@@ -2,6 +2,7 @@
 layout: lesson
 title: Format Borders
 ---
+<h1 class="text-4xl font-semibold text-center mb-4">Format Borders</h1>
 
 Borders can be added and removed. Colors and style can be changed. To add borders to a cell or a range of cells, click the Borders button on the Ribbon. It is located in the Font group on the ribbon. The default border is a black underline. 
 

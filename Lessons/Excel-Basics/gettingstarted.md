@@ -11,7 +11,8 @@ Excel can be found in many different digital forms. This tutorial will describe 
 <ul class="list-disc list-inside">
 <li> Downloading Excel </li>
 <li> Accessing Excel through different platforms </li>
-</ui>
+</ul>
+</div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Microsoft Office 365</h2>
