@@ -4,28 +4,44 @@ title: Lessons
 permalink: /lessons/
 ---
 
-<h1 class="text-2xl font-bold text-green-800 mb-4">Lessons</h1>
+<h1 class="text-3xl font-bold text-green-800 mb-6">Lessons</h1>
+
 {% assign lesson_pages = site.pages 
-  | where_exp: "page", "page.path contains 'Lessons/'" 
-  | where_exp: "page", "page.path != 'Lessons/lessonpage.md'" 
+  | where_exp: "p", "p.path contains 'Lessons/'" 
+  | where_exp: "p", "p.path != 'Lessons/lessonpage.md'" 
 %}
 
 {% assign lessons_by_folder = lesson_pages 
-  | group_by_exp: "page", "page.path | split: '/' | slice: 1,1 | first" 
+  | group_by_exp: "p", "p.path | split: '/' | slice: 1,1 | first" 
 %}
 
 {% for folder in lessons_by_folder %}
-  <h2 class="text-xl font-semibold text-green-700 mt-6 mb-2">{{ folder.name | capitalize }}</h2>
+  <h2 class="text-2xl font-semibold text-green-700 mt-8 mb-4">{{ folder.name }}</h2>
 
   {% assign sorted_lessons = folder.items | sort: "order" %}
 
-  <ul class="list-disc list-inside">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
     {% for lesson in sorted_lessons %}
-      <li>
-        <a href="{{ lesson.url | relative_url }}" class="text-green-800 hover:text-green-600">
+      <a href="{{ lesson.url | relative_url }}"
+         class="block bg-white rounded-xl shadow-sm border border-green-100 p-6 hover:shadow-md hover:bg-green-50 transition">
+         
+        <h3 class="text-xl font-semibold text-green-800 mb-2">
           {{ lesson.title }}
-        </a>
-      </li>
+        </h3>
+
+        {% if lesson.description %}
+          <p class="text-green-700 text-sm">{{ lesson.description }}</p>
+        {% endif %}
+      </a>
     {% endfor %}
-  </ul>
+  </div>
 {% endfor %}
+
+<div class="mt-10 flex justify-center gap-6">
+  <a href="{{ '/' | relative_url }}" 
+     class="bg-green-700 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition">
+    ← Back to Home
+  </a>
+
+  </a>
+</div>

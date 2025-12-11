@@ -1,47 +1,54 @@
 ---
 layout: base
-title: Lessons
-permalink: /lessons/
 ---
 
-<h1 class="text-3xl font-bold text-green-800 mb-6">Lessons</h1>
+<main class="flex-1 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">
 
-{% assign lesson_pages = site.pages 
-  | where_exp: "p", "p.path contains 'Lessons/'" 
-  | where_exp: "p", "p.path != 'Lessons/lessonpage.md'" 
-%}
+  <!-- Lesson Content -->
+  <article class="prose prose-green mx-auto">
+    <h1 class="text-3xl font-bold text-green-800 mb-6">{{ page.title }}</h1>
+    {{ content }}
+  </article>
 
-{% assign lessons_by_folder = lesson_pages 
-  | group_by_exp: "p", "p.path | split: '/' | slice: 1,1 | first" 
-%}
+  <!-- Navigation Buttons -->
+  {% assign this_folder = page.path | split: '/' | slice: 1,1 | first %}
+  {% assign lessons_in_folder = site.pages 
+      | where_exp: "p", "p.path contains this_folder" 
+      | sort: "order"
+  %}
 
-{% for folder in lessons_by_folder %}
-  <h2 class="text-2xl font-semibold text-green-700 mt-8 mb-4">{{ folder.name }}</h2>
+  {% assign index = 0 %}
+  {% for item in lessons_in_folder %}
+    {% if item.url == page.url %}
+      {% assign index = forloop.index0 %}
+    {% endif %}
+  {% endfor %}
 
-  {% assign sorted_lessons = folder.items | sort: "order" %}
+  <div class="mt-12 flex flex-wrap justify-center gap-6">
 
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    {% for lesson in sorted_lessons %}
-      <a href="{{ lesson.url | relative_url }}"
-         class="block bg-white rounded-xl shadow-sm border border-green-100 p-6 hover:shadow-md hover:bg-green-50 transition">
-         
-        <h3 class="text-xl font-semibold text-green-800 mb-2">
-          {{ lesson.title }}
-        </h3>
-
-        {% if lesson.description %}
-          <p class="text-green-700 text-sm">{{ lesson.description }}</p>
-        {% endif %}
+    {% if index > 0 %}
+      {% assign previous = lessons_in_folder[index | minus: 1] %}
+      <a href="{{ previous.url | relative_url }}" 
+         class="bg-green-700 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition">
+        ← Previous Lesson
       </a>
-    {% endfor %}
+    {% endif %}
+
+    <a href="{{ '/lessons' | relative_url }}" 
+       class="bg-green-700 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition">
+      Back to Lessons
+    </a>
+
+    {% assign next_index = index | plus: 1 %}
+    {% if next_index < lessons_in_folder.size %}
+      {% assign next_item = lessons_in_folder[next_index] %}
+      <a href="{{ next_item.url | relative_url }}" 
+         class="bg-green-700 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition">
+        Next Lesson →
+      </a>
+    {% endif %}
+
   </div>
-{% endfor %}
 
-<div class="mt-10 flex justify-center gap-6">
-  <a href="{{ '/' | relative_url }}" 
-     class="bg-green-700 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition">
-    ← Back to Home
-  </a>
+</main>
 
-  </a>
-</div>
