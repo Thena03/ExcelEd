@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Introduction to Excel Math
+order: 1
 ---
 <h1 class="text-4xl font-semibold text-center mb-4"> Arithmetic Operations</h1>
 <br>

@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Excel Tables 
+order: 2
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Basic Formatting Actions
+order: 2
 ---
 
 <div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">

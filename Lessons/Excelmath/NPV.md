@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: NPV Function
+order: 6
 ---
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Net Present Value (NPV) Function</h2>

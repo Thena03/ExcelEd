@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Excel Summary Stats Functions
+order: 3
 ---
 <h1 class="text-4xl font-bold text-center mb-4"> Summary Stats Functions</h1>
 <br>

@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Excel Parentheses
+order: 2
 ---
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 

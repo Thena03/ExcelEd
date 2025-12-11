@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Font Characteristics
+order: 3
 ---
 
 <h1 class="text-4xl font-semibold text-center mb-4">Formatting Fonts:</h1>

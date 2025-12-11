@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Format Borders
+order: 6
 ---
 <h1 class="text-4xl font-semibold text-center mb-4">Format Borders</h1>
 

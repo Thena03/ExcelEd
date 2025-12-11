@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Format Settings
+order: 5
 ---
 <h1 class="text-4xl font-semibold text-center mb-4">Format Settings</h1>
 <br>

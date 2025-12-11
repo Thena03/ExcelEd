@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Number Formats
+order: 4
 ---
 <h1 class="text-4xl font-bold text-center mb-4">Number Formats </h1> <br>
 

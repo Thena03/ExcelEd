@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Searching Functions
+order: 3
 ---
 <h1 class="text-4xl font-semibold text-center mb-4"> Searching Functions</h1>
 <br>
