@@ -5,16 +5,22 @@ permalink: /lessons/
 ---
 
 <h1 class="text-2xl font-bold text-green-800 mb-4">Lessons</h1>
+{% assign lesson_pages = site.pages 
+  | where_exp: "page", "page.path contains 'Lessons/'" 
+  | where_exp: "page", "page.path != 'Lessons/lessonpage.md'" 
+%}
 
-{% assign lesson_pages = site.pages | where_exp: "page", "page.path contains 'Lessons/'" %}
-{% assign lesson_pages = lesson_pages | where_exp: "page", "page.path != 'Lessons/lessonpage.md'" %}
-
-{% assign lessons_by_folder = lesson_pages | group_by_exp: "page", "page.path | split: '/' | slice: 1" %}
+{% assign lessons_by_folder = lesson_pages 
+  | group_by_exp: "page", "page.path | split: '/' | slice: 1,1 | first" 
+%}
 
 {% for folder in lessons_by_folder %}
   <h2 class="text-xl font-semibold text-green-700 mt-6 mb-2">{{ folder.name | capitalize }}</h2>
+
+  {% assign sorted_lessons = folder.items | sort: "order" %}
+
   <ul class="list-disc list-inside">
-    {% for lesson in folder.items %}
+    {% for lesson in sorted_lessons %}
       <li>
         <a href="{{ lesson.url | relative_url }}" class="text-green-800 hover:text-green-600">
           {{ lesson.title }}

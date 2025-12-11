@@ -2,6 +2,8 @@
 layout: lesson
 title: Excel Tables 
 ---
+
+
 <h1 class="text-4xl font-semibold text-center mb-4"> Excel Tables</h1><br>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Excel Tables Overview</h2>
