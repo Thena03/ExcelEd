@@ -17,7 +17,7 @@ The most common style functions used are:
 </ul>
 
 <br>
-<p class="font-semibold">These style commands can be accessed through:</p>
+<strong>These style commands can be accessed through:</strong> <br>
 <ol class="list-decimal list-inside">
   <li class="font-semibold">The Ribbon
     <ul class="list-disc list-inside">

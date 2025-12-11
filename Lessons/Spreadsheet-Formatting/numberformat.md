@@ -22,7 +22,7 @@ Number formats can be changed by clicking the number format dropdown in the Numb
 <br>
 Insert example
 
-<p class="font-semibold">Note: The currency format will use your local currency by default. If you would like to change your currency, it can be changed in the dropdown menu by clicking More Number Formats at the bottom of the menu and click on Currency. </p>
+<strong>Note:</strong> The currency format will use your local currency by default. If you would like to change your currency, it can be changed in the dropdown menu by clicking More Number Formats at the bottom of the menu and click on Currency. 
 
 <h2 class="text-2xl font-semibold mb-4"> Decimals </h2>
 The number of decimals can be increased and decreased using the Increasing Decimal and/or Decreasing Decimal commands. Clicking these commands will reduce or increase the number of decimals. 

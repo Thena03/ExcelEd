@@ -6,7 +6,7 @@ title: Format Settings
 <br>
 Excel provides regional formatting settings for different styles and languages of presenting information. 
 
-<p class="font-semibold">Regional settings can greatly impact:</p>
+<strong>Regional settings can greatly impact:</strong> <br>
 <ul class="list-disc list-inside">
 <li>Calendar date formatting</li>
 <li>Decimal numbers </li>
@@ -25,5 +25,5 @@ To change the format settings, go to the File menu and click Options. The Option
 insert example
 </div>
 
-<p class="font-semibold">Warning: Changing the regional format settings will automatically convert any existing values and formulas in your spreadsheet.</p>
+<strong>Warning:</strong>Changing the regional format settings will automatically convert any existing values and formulas in your spreadsheet.
 

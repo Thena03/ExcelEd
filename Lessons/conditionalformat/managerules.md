@@ -3,15 +3,18 @@ layout: lesson
 title: Manage Cell Rules
 ---
 
-# Manage Rules
+<div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
+<h2 class="text-2xl font-semibold text-center mb-4"> Manage Rules</h2>
+<br>
 Conditional Formatting rules can be managed and removed using the Clear Rules and Manage Rules feature. 
-
+<br>
 The Clear Rules feature removes all rules from selected cells or from the entire spreadsheet.
-
+<br>
 Insert example
-
+<br>
 The Manage Rules feature will show all the active rules that are applied to the selected range and indicate which cells the rule is applied to. This will allow you to delete specific rules from a specific range of cells. 
-
+<br>
 Insert example
-
-**Warning:** The web browser version of Excel, the only thing that can be managed is removing the rules. 
+<br>
+<strong>Warning:</strong>The web browser version of Excel, the only thing that can be managed is removing the rules. 
+</div>
