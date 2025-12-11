@@ -5,7 +5,6 @@ order: 1
 ---
 
 <h1 class="text-4xl font-bold text-center mb-4">Getting Started with Excel</h1>
-Excel can be found in many different digital forms. This tutorial will describe the various ways you can access Excel.
 <br>
 <div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h3 class="text-xl font-semibold mb-4">Learning Objectives</h3>
@@ -17,6 +16,8 @@ Excel can be found in many different digital forms. This tutorial will describe 
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Microsoft Office 365</h2>
+Excel can be found in many different digital forms. This tutorial will describe the various ways you can access Excel.
+<br>
 Microsoft Office 365 is the web version of Excel. It is the easiest way to access the program since it does not require any installation. This can be accessed through 
 [Microsoft Office 365](https://www.office.com).
 
