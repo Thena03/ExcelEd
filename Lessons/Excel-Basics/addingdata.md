@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Adding Data to Cells
+order: 4
 ---
 <h1 class="text-4xl font-bold text-center mb-4">Adding Data</h1>
 

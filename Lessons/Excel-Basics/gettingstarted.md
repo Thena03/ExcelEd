@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Getting Started with Excel
+order: 1
 ---
 
 <h1 class="text-4xl font-bold text-center mb-4">Getting Started with Excel</h1>

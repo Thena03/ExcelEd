@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Undo and Redo Functions
+order: 5
 ---
 
 <h1 class="text-4xl font-bold text-center mb-4">The Undo and Redo Functions</h1>

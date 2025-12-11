@@ -1,6 +1,7 @@
 ---
 layout: lesson
 title: Intro to Excel
+order: 2
 ---
 
 <h1 class="text-4xl font-semibold text-center mb-4">Introduction to Excel:</h1>
