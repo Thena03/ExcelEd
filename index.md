@@ -9,7 +9,7 @@ permalink: /
   <!-- Hero Section -->
   <section class="text-center py-16 bg-green-50 rounded-lg shadow-md">
     <h1 class="text-5xl font-bold text-green-800 mb-4">Excelerate</h1>
-    <p class="text-xl text-green-700 mb-8">Your free, open notebook for learning Excel — interactive lessons and examples at your own pace.</p>
+    <p class="text-xl text-green-700 mb-8">Your free, open notebook for learning Excel. Use interactive lessons and examples at your own pace.</p>
     <div class="flex justify-center gap-6">
       <a href="{{ '/lessons' | relative_url }}" 
          class="bg-green-700 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition">
@@ -71,12 +71,12 @@ permalink: /
   <section class="mt-16 text-center bg-green-50 p-8 rounded-lg shadow">
     <h2 class="text-3xl font-bold text-green-800 mb-4">Why Excelerate?</h2>
     <p class="text-green-700 max-w-2xl mx-auto">
-      Excelerate is a free resource for students, professionals, and everyday learners to build real Excel skills — no clutter, no logins, just learning. 
+      Excelerate is a free resource for students, professionals, and everyday learners to build real Excel skills. 
       Start at the beginning or jump straight to the topic you need.
     </p>
   </section>
 
-  <!-- How to Use Section -->
+  <!-- How to Use Section 
   <section class="mt-16 text-center">
     <h2 class="text-3xl font-bold text-green-800 mb-6">How to Use This Open Book</h2>
     <ul class="max-w-2xl mx-auto text-green-700 list-disc list-inside space-y-2 text-left">
@@ -85,7 +85,7 @@ permalink: /
       <li>Each lesson has Previous / Next buttons for easy navigation</li>
       <li>Fully responsive — works on desktop and mobile</li>
     </ul>
-  </section>
+  </section> -->
 
   <!-- Call-to-Action -->
   <section class="mt-16 text-center mb-16">

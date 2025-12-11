@@ -43,5 +43,5 @@ permalink: /lessons/
     ← Back to Home
   </a>
 
-  </a>
+ 
 </div>
