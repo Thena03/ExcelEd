@@ -8,6 +8,7 @@ title: Creating Formulas
 <ul class="list-disc list-inside">
 <li> How to create a formula </li>
 <li> Purpose of formulas </li>
+</ul>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">

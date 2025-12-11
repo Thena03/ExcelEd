@@ -13,7 +13,7 @@ title: Relative v. Absolute References
 <li> Understanding the purpose behind absolute references </li>
 </ul>
 </div>
-
+<br>
 Cells have unique references (also known as their location in the spreadsheet). The two types of references in Excel are relative references and absolute references. 
 <br>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
@@ -31,18 +31,24 @@ An absolute reference is a reference that utilizes a dollar sign. This dollar si
 
 <strong>The dollar sign has three different states:</strong>
 <ul class="list-disc list-inside">
-  <li class="font-semibold">Column and Row
-    - The reference locks both the column and the row.
-    - **Example:** `$A$1`</li>
+  <li><strong>Column and Row</strong>
+  <ul class="list-disc list-inside">
+    <li> The reference locks both the column and the row. </li>
+    <li><strong>Example:</strong> $A$1</li>
+    </ul>
 
- <li class="font-semibold">Column
-    - The reference is locked to the column.  
-      The row remains relative (free).
-    - **Example:** `$A1` </li>
+ <li> <strong> Column </strong>
+ <ul class="list-disc list-inside">
+    <li> The reference is locked to the column. </li>
+     <li> The row remains relative (free). </li>
+    <li> <strong> Example:</strong> $A1` </li>
+    </ul>
 
-  <li class="font-semibold">Row
-    - The reference is locked to the row.  
-      The column remains relative (free).
-    - **Example:** `A$1` </li>
+  <li> <strong>Row </strong>
+  <ul class="list-disc list-inside">
+    <li> The reference is locked to the row. </li>
+    <li> The column remains relative (free). </li>
+    <li> <strong>Example:</strong> A$1 </li>
+    </ul>
     </ul>
 </div>
