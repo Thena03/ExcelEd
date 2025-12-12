@@ -79,7 +79,7 @@ When opening a workbook, you start with one Sheet by default. If you want to add
 New sheets can be added, removed, and renamed. To edit a sheet tab, you will right-click with your mouse on the sheet tab. This will give you a list of commands you can complete in the specific tab.
 
 <p align="center">
-  <img src="{{ '/static/images/editing_sheets.png' | relative_url }}" alt="Excel Editing Sheets example">
+  <img src="{{ '/static/editing_sheets.png' | relative_url }}" alt="Excel Editing Sheets example">
 </p>
 
 </div>
