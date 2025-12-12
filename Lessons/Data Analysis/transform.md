@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Transforming Data 
+title: Sorting and Filtering Data
 order: 1
 ---
 

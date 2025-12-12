@@ -21,7 +21,7 @@ order: 3
 When you open a new blank workbook, you will be greeted with a large spreadsheet. The spreadsheet consists of two components: the Sheet and the Ribbon. 
 
 <p align="center">
-  <img src="/static/workbook.png" alt="Excel Workbook example">
+  <img src="/static/images/workbook.png" alt="Excel Workbook example">
 </p>
 </div>
 <br>
@@ -31,7 +31,7 @@ When you open a new blank workbook, you will be greeted with a large spreadsheet
 
 The ribbon is a row of tabs and commands at the top of the Excel workbook that helps you perform tasks. It also provides Excel commands shortcuts. A command allows you to execute an action. This command could be to change a font size, inserting a table, or inserting a column or row. <br>
 <p align="center">
-  <img src="/static/ribbon.png" alt="Excel Ribbon example">
+  <img src="/static/images/ribbon.png" alt="Excel Ribbon example">
 </p>
 <br>
 
@@ -42,7 +42,7 @@ The ribbon is a row of tabs and commands at the top of the Excel workbook that h
 <li>Groups - This is a set of related commands in a specific Tab. Groups are separated by thin vertical dividers. </li>
 <li>Commands - These are buttons used to do actions. </li> </ul> <br>
 <p align="center">
-  <img src="/static/ribbon_breakdown.png" alt="Excel Ribbon Breakdown example">
+  <img src="/static/images/ribbon_breakdown.png" alt="Excel Ribbon Breakdown example">
 </p>
 <br>
 </div>
@@ -52,13 +52,13 @@ The ribbon is a row of tabs and commands at the top of the Excel workbook that h
 The sheet is a set of rows and columns. The rectangle boxes in the sheet are called cells. The values that are allowed in cells are both numbers and letters. Each cell has a unique reference, which is called by its coordinates. 
 
 <p align="center">
-  <img src="/static/Sheet.png" alt="Excel Sheet example">
+  <img src="/static/images/Sheet.png" alt="Excel Sheet example">
 </p>
 
 As you can see, this is where the columns and rows intersect. The letter in the coordinate is the column and the number is the row. This can also be found in the Name Box, located under the ribbon, to tell you which cell is selected.
 
 <p align="center">
-  <img src="/static/namebox.png" alt="Excel Namebox example">
+  <img src="/static/images/namebox.png" alt="Excel Namebox example">
 </p>
 </div>
 
@@ -67,7 +67,7 @@ As you can see, this is where the columns and rows intersect. The letter in the 
 When opening a workbook, you start with one Sheet by default. If you want to add another sheet to the same workbook, you can hit the plus button at the bottom of the sheet. 
 
 <p align="center">
-  <img src="/static/adding_sheets.png" alt="Excel Adding Sheets example">
+  <img src="/static/images/adding_sheets.png" alt="Excel Adding Sheets example">
 </p>
 
 <strong>Tip:</strong> You can use the keyboard shortcut,  <strong>Shift + F11</strong>.
@@ -79,6 +79,6 @@ When opening a workbook, you start with one Sheet by default. If you want to add
 New sheets can be added, removed, and renamed. To edit a sheet tab, you will right-click with your mouse on the sheet tab. This will give you a list of commands you can complete in the specific tab.
 
 <p align="center">
-  <img src="/static/editing_sheets.png" alt="Excel Editing Sheets example">
+  <img src="/static/images/editing_sheets.png" alt="Excel Editing Sheets example">
 </p>
 </div>
