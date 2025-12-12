@@ -35,7 +35,6 @@ permalink: /resources/
     <ul class="list-disc list-inside text-green-700 text-sm space-y-1">
       <li><a class="text-green-800 underline" href="https://www.coursera.org" target="_blank">Coursera (Free Audit Options)</a></li>
       <li><a class="text-green-800 underline" href="https://www.edx.org" target="_blank">edX Excel Courses</a></li>
-      <li><a class="text-green-800 underline" href="https://chandoo.org" target="_blank">Chandoo.org Tutorials</a></li>
     </ul>
   </div>
 
@@ -43,7 +42,6 @@ permalink: /resources/
   <div class="bg-white border border-green-100 rounded-xl shadow-sm p-6 hover:shadow-md hover:bg-green-50 transition">
     <h2 class="text-xl font-semibold text-green-800 mb-2">Practice Files & Templates</h2>
     <ul class="list-disc list-inside text-green-700 text-sm space-y-1">
-      <li><a class="text-green-800 underline" href="https://www.excelpracticefiles.com" target="_blank">Excel Practice Files</a></li>
       <li><a class="text-green-800 underline" href="https://www.vertex42.com/ExcelTemplates/" target="_blank">Vertex42 Free Templates</a></li>
     </ul>
   </div>

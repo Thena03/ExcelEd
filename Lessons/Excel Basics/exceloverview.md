@@ -67,7 +67,7 @@ As you can see, this is where the columns and rows intersect. The letter in the 
 When opening a workbook, you start with one Sheet by default. If you want to add another sheet to the same workbook, you can hit the plus button at the bottom of the sheet. 
 
 <p align="center">
-  <img src="/static/images/adding_sheets.png" alt="Excel Adding Sheets example">
+  <img src="/static/images/adding_sheets.png" alt="Excel Adding Sheets example"/>
 </p>
 
 <strong>Tip:</strong> You can use the keyboard shortcut,  <strong>Shift + F11</strong>.
@@ -79,7 +79,7 @@ When opening a workbook, you start with one Sheet by default. If you want to add
 New sheets can be added, removed, and renamed. To edit a sheet tab, you will right-click with your mouse on the sheet tab. This will give you a list of commands you can complete in the specific tab.
 
 <p align="center">
-  <img src="{{ '/static/editing_sheets.png' | relative_url }}" alt="Excel Editing Sheets example">
+  <img src="{{'/static/editing_sheets.png' | relative_url }}" alt="Excel Editing Sheets example"/>
 </p>
 
 </div>
