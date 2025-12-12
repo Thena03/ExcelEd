@@ -23,7 +23,7 @@ Range is an operation that allows you to work with selections of cells.
 Cells are selected by left-clicking on the cell you want to select. More than one cell can be selected by pressing and holding down CTRL or Command and left-clicking the cells. When the cells are selected, you can let go of CTRL or Command. 
 
 <p align="center">
-  <img src="{{ '/static/images/ribbon.png' | relative_url }}" alt="Selecting a cell example"/>
+  <img src="{{ '/static/images/selecting_acell.png' | relative_url }}" alt="Selecting a cell example"/>
 </p>
 </div>
 
@@ -32,21 +32,27 @@ Cells are selected by left-clicking on the cell you want to select. More than on
 
 Columns are selected by left-clicking them. This will select all the cells in the sheet related to the column. 
 
-![Excel Selecting a column example](/images/ribbon.png)
+<p align="center">
+  <img src="{{ '/static/images/selecting_column.png' | relative_url }}" alt="Selecting a column example"/>
+</p>
 </div>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Selecting a Row</h2>
 
 Rows are selected by left-clicking them. This will select all the cells in the sheet related to the rows. 
 
-![Excel Selecting a Row example](/images/ribbon.png)
+<p align="center">
+  <img src="{{ '/static/images/selecting_row.png' | relative_url }}" alt="Selecting a row example"/>
+</p>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Selecting an Entire Sheet</h2>
 The entire spreadsheet can be selected by clicking the triangle in the top-left corner of the spreadsheet under the name box. 
 
-![Excel Selecting an Entire Sheet example](/images/ribbon.png)
+<p align="center">
+  <img src="{{ '/static/images/Selecting_sheet.png' | relative_url }}" alt="Selecting an entire sheet example"/>
+</p>
 
 <strong>Tip:</strong>You can also select the entire spreadsheet by using keyboard shortcuts. The keyboard shortcut for Windows is <strong>CTRL + A</strong>. It is <strong>Cmd + A</strong>for MacOS. 
 </div>
@@ -57,7 +63,9 @@ There are two methods to select a range of cells.
 
 The first method is the Name Box. In the Name Box, you will type in the coordinates of the cells you want.
 
-![Excel Name Box example](/static/namebox.png)
+<p align="center">
+  <img src="{{ '/static/images/namebox.png' | relative_url }}" alt="Namebox example"/>
+</p>
 
 The second method is to drag and mark a range. To drag and mark a range, select a cell and hold the mouse button down. Then move your mouse over the range that you want selected. The range of cells that is marked will turn grey. Then let go of the mouse button when you have marked the range. 
 
