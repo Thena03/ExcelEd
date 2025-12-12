@@ -15,8 +15,9 @@ The Undo function allows you to reverse an action. This function is useful when 
 To use the undo function, press the function in the Ribbon. 
 
 <p align="center">
-  <img src="/static/undo_function.png" alt="Excel Undo Function example">
+  <img src="{{ '/static/images/undo_function.png' | relative_url }}" alt="Excel Undo Function example"/>
 </p>
+
 <strong>Tip:</strong> You can also use the keyboard shortcut <strong>CTRL + Z/Command + Z</strong> to undo actions. 
 </div>
 
@@ -25,7 +26,7 @@ To use the undo function, press the function in the Ribbon.
 The redo function, on the other hand, reverses the Undo action. This is helpful when you regret using the undo function. To use the Redo function, press the button in the Ribbon. It should be placed directly under the Undo button. 
 
 <p align="center">
-  <img src="/static/redo_function.webp" alt="Excel Redo Function example">
+  <img src="{{ '/static/images/redo_function.webp' | relative_url }}" alt="Excel Redo Function example"/>
 </p>
 
 <strong>Tip:</strong> You can also use the keyboard shortcut, <strong>CTRL + Y/Command + Y</strong>

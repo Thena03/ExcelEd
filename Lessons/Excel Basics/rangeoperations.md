@@ -22,7 +22,9 @@ Range is an operation that allows you to work with selections of cells.
 
 Cells are selected by left-clicking on the cell you want to select. More than one cell can be selected by pressing and holding down CTRL or Command and left-clicking the cells. When the cells are selected, you can let go of CTRL or Command. 
 
-![Excel Selecting a cell example](/images/ribbon.png)
+<p align="center">
+  <img src="{{ '/static/images/ribbon.png' | relative_url }}" alt="Selecting a cell example"/>
+</p>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">

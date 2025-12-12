@@ -18,7 +18,7 @@ order: 4
 To add data to a cell, select and double click a cell. Then type in the data you would like to enter into the cell.
 
 <p align="center">
-  <img src="/static/images/workbook.png" alt="Excel Adding Data example">
+  <img src="{{ '/static/images/workbook.png' | relative_url }}" alt="Excel Adding Data example">
 </p>
 </div>
 
@@ -27,7 +27,7 @@ To add data to a cell, select and double click a cell. Then type in the data you
 To delete cell values, select the original cells and remove them by pressing the “Delete” button on the keyboard. 
 
 <p align="center">
-  <img src="/static/images/deletingdata.png" alt="Excel Deleting Data example">
+  <img src="{{ '/static/images/deletingdata.png' | relative_url }}" alt="Excel Deleting Data example"/>
 </p>
 </div>
 
