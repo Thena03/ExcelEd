@@ -23,7 +23,7 @@ Microsoft Office 365 is the web version of Excel. It is the easiest way to acces
 [Microsoft Office 365](https://www.office.com).
 
 <p align="center">
-  <img src="{{ '/static/images/excel-web.jpeg' | relative_url }}" alt="Excel Adding Data example">
+  <img src="{{ '/static/excel-web.jpeg' | relative_url }}" alt="Excel Adding Data example">
 </p>
 <br>
 <br>
@@ -40,7 +40,7 @@ When you are on the go, the Excel mobile app allows you to view and edit your sp
 After that, you are logged in and ready to work on your spreadsheet.
 
 <p align="center">
-  <img src="{{ '/static/images/mobile-excel.avig' | relative_url }}" alt="Excel Mobile example">
+  <img src="{{ '/static/mobile-excel.avig' | relative_url }}" alt="Excel Mobile example">
 </p>
  </div>
 
