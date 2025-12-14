@@ -16,13 +16,14 @@ order: 7
 </div>
 <br>
 Cells have unique references (also known as their location in the spreadsheet). The two types of references in Excel are relative references and absolute references. 
-<br>
+<br> <br>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Relative Reference</h2>
 References are relative by default. They are marked without a dollar sign ($). This gives the fill function the freedom to continue the order in a range without restrictions. 
 <br>
-![Excel Working relative example](/images/ribbon.png)
-![Excel error relative example](/images/ribbon.png)
+<p align="center">
+  <img src="{{ '/static/relative-reference-example.png' | relative_url }}" alt="Relative Reference example"/>
+</p>
 </div>
 
 
@@ -42,7 +43,7 @@ An absolute reference is a reference that utilizes a dollar sign. This dollar si
  <ul class="list-disc list-inside">
     <li> The reference is locked to the column. </li>
      <li> The row remains relative (free). </li>
-    <li> <strong> Example:</strong> $A1` </li>
+    <li> <strong> Example:</strong> $A1 </li>
     </ul>
 
   <li> <strong>Row </strong>
@@ -50,6 +51,5 @@ An absolute reference is a reference that utilizes a dollar sign. This dollar si
     <li> The reference is locked to the row. </li>
     <li> The column remains relative (free). </li>
     <li> <strong>Example:</strong> A$1 </li>
-    </ul>
     </ul>
 </div>

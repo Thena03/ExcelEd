@@ -19,7 +19,7 @@ order: 3
 <h2 class="text-2xl font-semibold text-center mb-4">The Workbook</h2>
 
 When you open a new blank workbook, you will be greeted with a large spreadsheet. The spreadsheet consists of two components: the Sheet and the Ribbon. 
-
+<br><br>
 <p align="center">
   <img src="{{ '/static/workbook.png' | relative_url }}" alt="Excel Workbook example"/>
 </p>
@@ -50,13 +50,13 @@ The ribbon is a row of tabs and commands at the top of the Excel workbook that h
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">The Sheet</h2>
 The sheet is a set of rows and columns. The rectangle boxes in the sheet are called cells. The values that are allowed in cells are both numbers and letters. Each cell has a unique reference, which is called by its coordinates. 
-
+<br>
 <p align="center">
   <img src="{{'/static/Sheet.png' | relative_url }}" alt="Excel Sheets example"/>
 </p>
-
+<br><br>
 As you can see, this is where the columns and rows intersect. The letter in the coordinate is the column and the number is the row. This can also be found in the Name Box, located under the ribbon, to tell you which cell is selected.
-
+<br><br>
 <p align="center">
   <img src="{{'/static/namebox.png' | relative_url }}" alt="Excel Namebox example"/>
 </p>
@@ -65,11 +65,11 @@ As you can see, this is where the columns and rows intersect. The letter in the 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Adding Sheet Tabs</h2>
 When opening a workbook, you start with one Sheet by default. If you want to add another sheet to the same workbook, you can hit the plus button at the bottom of the sheet. 
-
+<br>
 <p align="center">
   <img src="{{'/static/adding_sheets.png' | relative_url }}" alt="Excel Adding Sheets example"/>
 </p>
-<br> <br>
+<br> <br><br>
 <strong>Tip:</strong> You can use the keyboard shortcut,  <strong>Shift + F11</strong>.
 </div>
 
@@ -77,7 +77,7 @@ When opening a workbook, you start with one Sheet by default. If you want to add
 <h2 class="text-2xl font-semibold text-center mb-4">Editing Sheet Tabs</h2>
 
 New sheets can be added, removed, and renamed. To edit a sheet tab, you will right-click with your mouse on the sheet tab. This will give you a list of commands you can complete in the specific tab.
-
+<br>
 <p align="center">
   <img src="{{'/static/editing_sheets.png' | relative_url }}" alt="Excel Editing Sheets example"/>
 </p>
