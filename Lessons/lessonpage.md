@@ -6,25 +6,26 @@ permalink: /lessons/
 
 <h1 class="text-3xl font-bold text-green-800 mb-6">Lessons</h1>
 
-{% assign lesson_pages = site.pages 
-  | where_exp: "p", "p.path contains 'Lessons/'" 
-  | where_exp: "p", "p.path != 'Lessons/lessonpage.md'" 
+{% assign lesson_pages = site.pages
+  | where_exp: "p", "p.path contains 'Lessons/'"
+  | where_exp: "p", "p.path != 'Lessons/lessonpage.md'"
+  | sort: "order"
 %}
 
-{% assign lessons_by_folder = lesson_pages 
-  | group_by_exp: "p", "p.path | split: '/' | slice: 1,1 | first" 
+{% assign lessons_by_folder = lesson_pages
+  | group_by_exp: "p", "p.path | split: '/' | slice: 1,1 | first"
 %}
 
 {% for folder in lessons_by_folder %}
-  <h2 class="text-2xl font-semibold text-green-700 mt-8 mb-4">{{ folder.name }}</h2>
-
-  {% assign sorted_lessons = folder.items | sort: "order" %}
+  <h2 class="text-2xl font-semibold text-green-700 mt-8 mb-4">
+    {{ folder.name | replace: '-', ' ' }}
+  </h2>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    {% for lesson in sorted_lessons %}
+    {% for lesson in folder.items %}
       <a href="{{ lesson.url | relative_url }}"
          class="block bg-white rounded-xl shadow-sm border border-green-100 p-6 hover:shadow-md hover:bg-green-50 transition">
-         
+
         <h3 class="text-xl font-semibold text-green-800 mb-2">
           {{ lesson.title }}
         </h3>
@@ -38,10 +39,8 @@ permalink: /lessons/
 {% endfor %}
 
 <div class="mt-10 flex justify-center gap-6">
-  <a href="{{ '/' | relative_url }}" 
+  <a href="{{ '/' | relative_url }}"
      class="bg-green-700 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 transition">
     ← Back to Home
   </a>
-
- 
 </div>
