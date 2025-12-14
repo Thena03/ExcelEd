@@ -52,7 +52,7 @@ The ribbon is a row of tabs and commands at the top of the Excel workbook that h
 The sheet is a set of rows and columns. The rectangle boxes in the sheet are called cells. The values that are allowed in cells are both numbers and letters. Each cell has a unique reference, which is called by its coordinates. 
 
 <p align="center">
-  <img src="{{'/static/Sheets.png' | relative_url }}" alt="Excel Sheets example"/>
+  <img src="{{'/static/Sheet.png' | relative_url }}" alt="Excel Sheets example"/>
 </p>
 
 As you can see, this is where the columns and rows intersect. The letter in the coordinate is the column and the number is the row. This can also be found in the Name Box, located under the ribbon, to tell you which cell is selected.
