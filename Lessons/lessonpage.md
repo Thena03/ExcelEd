@@ -16,9 +16,11 @@ permalink: /lessons/
   | group_by_exp: "p", "p.path | split: '/' | slice: 1,1 | first"
 %}
 
-{% for folder in lessons_by_folder %}
+{% assign sorted_folders = lessons_by_folder | sort: "name" %}
+
+{% for folder in sorted_folders %}
   <h2 class="text-2xl font-semibold text-green-700 mt-8 mb-4">
-    {{ folder.name | replace: '-', ' ' }}
+    {{ folder.name | split: '-' | shift | join: '-' | replace: '-', ' ' }}
   </h2>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
