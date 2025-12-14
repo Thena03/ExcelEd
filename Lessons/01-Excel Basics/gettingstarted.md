@@ -21,7 +21,7 @@ Excel can be found in many different digital forms. This tutorial will describe 
 <br>
 Microsoft Office 365 is the web version of Excel. It is the easiest way to access the program since it does not require any installation. This can be accessed through 
 [Microsoft Office 365](https://www.office.com).
-
+<br>
 <p align="center">
   <img src="{{ '/static/excel-web.jpeg' | relative_url }}" alt="Excel Adding Data example">
 </p>
@@ -38,9 +38,9 @@ After entering the Excel application, click on the “New Blank workbook” butt
 When you are on the go, the Excel mobile app allows you to view and edit your spreadsheet from your mobile device. The setup for the mobile app is simple. You will access your device’s app store and search for Microsoft Excel. Once you locate the Excel app, you will download the app as normal and then sign in to your Microsoft 365 account. 
 
 After that, you are logged in and ready to work on your spreadsheet.
-
+<br><br>
 <p align="center">
-  <img src="{{ '/static/mobile-excel.avig' | relative_url }}" alt="Excel Mobile example">
+  <img src="{{ '/static/mobile-excel.avif' | relative_url }}" alt="Excel Mobile example">
 </p>
  </div>
 

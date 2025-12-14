@@ -69,7 +69,7 @@ When opening a workbook, you start with one Sheet by default. If you want to add
 <p align="center">
   <img src="{{'/static/adding_sheets.png' | relative_url }}" alt="Excel Adding Sheets example"/>
 </p>
-
+<br> <br>
 <strong>Tip:</strong> You can use the keyboard shortcut,  <strong>Shift + F11</strong>.
 </div>
 
