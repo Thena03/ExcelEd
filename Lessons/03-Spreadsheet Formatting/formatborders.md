@@ -7,14 +7,16 @@ order: 6
 
 Borders can be added and removed. Colors and style can be changed. To add borders to a cell or a range of cells, click the Borders button on the Ribbon. It is located in the Font group on the ribbon. The default border is a black underline. 
 
-insert example
+<p align="center">
+  <img src="{{ '/static/border-formatting.png' | relative_url }}" alt="Excel Format Borders example"/>
 <br>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Border Colors</h2>
 You can also add colors to the borders by selecting a color before adding the border. 
 
-insert example
+<p align="center">
+  <img src="{{ '/static/border-color.png' | relative_url }}" alt="Excel Border Colors example"/>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
@@ -30,5 +32,6 @@ These six different borders are:
 <li> Thick line</li>
 <li> Double line </li>
 </ul>
-insert picture
+<p align="center">
+  <img src="{{ '/static/border-styles.png' | relative_url }}" alt="Excel Border Styles bexample"/>
 </div>
