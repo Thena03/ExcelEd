@@ -31,11 +31,14 @@ The table is displayed based on your settings. The PivotTable Fields panel allow
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold mb-4"> Fields</h2>
 Fields refers to the data points from your source table. 
-Insert example
+ <br>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold mb-4"> Layouts</h2>
 Layout alerts the way the four main components are displayed in the data. 
-Insert example
+<br>
+<p align="center">
+  <img src="{{ '/static/fields-layouts.png' | relative_url }}" alt="Excel Fields and layoutsexample"/>
+</p>
 </div>

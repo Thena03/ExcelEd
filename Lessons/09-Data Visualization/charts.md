@@ -19,5 +19,7 @@ Commonly created charts in Excel are:
 <br>
 To create a chart in Excel, select a range of cells and then click on the Insert menu and then choose the chart you would like to use to visualize the data. 
 <br>
-Insert example
+<p align="center">
+  <img src="{{ '/static/charts.png' | relative_url }}" alt="Excel Charts example"/>
+</p>
 </div>
