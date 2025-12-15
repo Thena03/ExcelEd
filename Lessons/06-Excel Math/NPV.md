@@ -14,8 +14,9 @@ The syntax is:
 <strong>Rate</strong> = discount rate per period
 <strong>Value1, value2… </strong> = series of cash flows occurring at the end of each period 
 To use this function, use `=NPV`. 
-<br>
-Insert example
-<br>
+<br><br>
+<p align="center">
+  <img src="{{ '/static/NPV.png' | relative_url }}" alt="Excel NPV example"/>
+<br><br>
 <strong>Note:</strong> The NPV function discounts from the first period, so the initial investment must be added after the function to get the correct total. 
 </div>
