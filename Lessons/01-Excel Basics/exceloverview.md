@@ -65,11 +65,11 @@ As you can see, this is where the columns and rows intersect. The letter in the 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Adding Sheet Tabs</h2>
 When opening a workbook, you start with one Sheet by default. If you want to add another sheet to the same workbook, you can hit the plus button at the bottom of the sheet. 
-<br>
+<br><br>
 <p align="center">
   <img src="{{'/static/adding_sheets.png' | relative_url }}" alt="Excel Adding Sheets example"/>
 </p>
-<br> <br><br>
+<br> <br>
 <strong>Tip:</strong> You can use the keyboard shortcut,  <strong>Shift + F11</strong>.
 </div>
 
@@ -77,7 +77,7 @@ When opening a workbook, you start with one Sheet by default. If you want to add
 <h2 class="text-2xl font-semibold text-center mb-4">Editing Sheet Tabs</h2>
 
 New sheets can be added, removed, and renamed. To edit a sheet tab, you will right-click with your mouse on the sheet tab. This will give you a list of commands you can complete in the specific tab.
-<br>
+<br><br>
 <p align="center">
   <img src="{{'/static/editing_sheets.png' | relative_url }}" alt="Excel Editing Sheets example"/>
 </p>

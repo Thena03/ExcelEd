@@ -27,6 +27,7 @@ The most common style functions used are:
   <li class="font-semibold">The Ribbon </li>
 
   <li class="font-semibold"> Formating Menu</li>
+</ol>  
 </div>
 
 

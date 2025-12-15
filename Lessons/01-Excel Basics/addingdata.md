@@ -16,7 +16,7 @@ order: 4
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Adding Data to a Cell</h2>
 To add data to a cell, select and double click a cell. Then type in the data you would like to enter into the cell.
-
+<br><br>
 <p align="center">
   <img src="{{ '/static/addingdata.png' | relative_url }}" alt="Excel Adding Data example"/>
 </p>
@@ -29,11 +29,11 @@ To delete cell values, select the original cells and remove them by pressing the
 Example:
 <br><br>
 <p align="center">
-  <img src="{{ '/static/to-delete.png' | relative_url }}" alt="Excel Deleting Data example"/>
+  <img src="{{ '/static/to-delete.png' | relative_url }}" alt="Excel Deleting Data example"/> <br> <br>
   How the cell looks when the value is deleted:
   <br><br>
 <p align="center">
   <img src="{{ '/static/deleted.png' | relative_url }}" alt="Excel Deleting Data example"/>
-</p>
+
 </div>
 

@@ -18,7 +18,7 @@ There are various ways to format fonts in Excel. The most common ways are:
 The default color for fonts is black. Colors can be applied to fonts by using the “Font color” function. The Font color command remembers the color used last time. 
 
 <p align="center">
-  <img src="{{ '/static/font-colors.png' | relative_url }}" alt="Excel Font Colors example"/>
+  <img src="{{ '/static/font-colors.png' | relative_url }}" alt="Excel Font Colors example"/> </p>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
@@ -35,6 +35,7 @@ The default font size used in Excel is 11. The size of fonts can be changed usin
 
 <p align="center">
   <img src="{{ '/static/font-size.png' | relative_url }}" alt="Excel Font Size example"/>
+</p>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
@@ -60,4 +61,5 @@ Other font characteristics can be adjusted through their commands in the ribbon.
 </ol> <br><br>
 <p align="center">
   <img src="{{ '/static/more-font-options.png' | relative_url }}" alt="Excel More Font Options example"/>
+</p>
   </div>

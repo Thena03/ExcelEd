@@ -9,6 +9,7 @@ Borders can be added and removed. Colors and style can be changed. To add border
 
 <p align="center">
   <img src="{{ '/static/border-formatting.png' | relative_url }}" alt="Excel Format Borders example"/>
+</p>
 <br>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
@@ -17,6 +18,7 @@ You can also add colors to the borders by selecting a color before adding the bo
 
 <p align="center">
   <img src="{{ '/static/border-color.png' | relative_url }}" alt="Excel Border Colors example"/>
+</p>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
@@ -34,4 +36,5 @@ These six different borders are:
 </ul>
 <p align="center">
   <img src="{{ '/static/border-styles.png' | relative_url }}" alt="Excel Border Styles bexample"/>
+</p>
 </div>

@@ -21,7 +21,7 @@ Excel can be found in many different digital forms. This tutorial will describe 
 <br>
 Microsoft Office 365 is the web version of Excel. It is the easiest way to access the program since it does not require any installation. This can be accessed through 
 [Microsoft Office 365](https://www.office.com).
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/excel-web.jpeg' | relative_url }}" alt="Excel Adding Data example">
 </p>

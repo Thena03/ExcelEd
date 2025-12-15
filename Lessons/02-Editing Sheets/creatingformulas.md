@@ -17,7 +17,7 @@ You can also create formulas using specific cell values. If cells already have v
 <br><br>
 <p align="center">
   <img src="{{ '/static/creatingaformula.png' | relative_url }}" alt="Excel Creating a Formula example"/>
-</p>
+</p> <br><br>
 In this example, we use the <strong>=</strong> sign to tell Excel that we are going to use a formula in this cell. Then we write the formula (in this case, we are using Excel's built-in addition formula) and select the cells we are going to use in the formula. Then Excel presents the output in the cell. 
 <br><br>
 This can also be done using the fill operation.

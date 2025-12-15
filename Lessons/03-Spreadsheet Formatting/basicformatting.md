@@ -28,6 +28,7 @@ Follow these steps to use the Format Painter in your spreadsheet:
 <br><br>
 <p align="center">
   <img src="{{ '/static/format-painter.png' | relative_url }}" alt="Excel Format Painter example"/>
+</p>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">

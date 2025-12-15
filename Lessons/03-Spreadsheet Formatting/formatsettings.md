@@ -26,6 +26,7 @@ To change the format settings, go to the File menu and click Options. The Option
 <br>
 <p align="center">
   <img src="{{ '/static/format-settings.png' | relative_url }}" alt="Excel Format Settings example"/>
+</p>
 </div>
 
 <strong>Warning:</strong> Changing the regional format settings will automatically convert any existing values and formulas in your spreadsheet.

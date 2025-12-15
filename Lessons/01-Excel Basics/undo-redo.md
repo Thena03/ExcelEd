@@ -21,7 +21,7 @@ The Undo function allows you to reverse an action. This function is useful when 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">The Undo function</h2>
 To use the undo function, press the function in the Ribbon. 
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/undo_function.png' | relative_url }}" alt="Excel Undo Function example"/>
 </p>

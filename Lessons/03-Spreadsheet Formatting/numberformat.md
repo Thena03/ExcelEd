@@ -20,8 +20,10 @@ A couple of common number formats are:
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold mb-4 text-center"> Changing Number Formats </h2>
 Number formats can be changed by clicking the number format dropdown in the Numbers group in the Ribbon.
-<br>
-Insert example
+<br><br>
+<p align="center">
+  <img src="{{ '/static/number-formats.png' | relative_url }}" alt="Excel Number Formats example"/>
+</p>
 <br><br>
 <strong>Note:</strong> The currency format will use your local currency by default. If you would like to change your currency, it can be changed in the dropdown menu by clicking More Number Formats at the bottom of the menu and click on Currency. 
 </div>
@@ -32,5 +34,7 @@ The number of decimals can be increased and decreased using the Increasing Decim
 <br><br>
 The commands can be found next to the Number format dropdown menu. 
 <br>
-Insert example
+<p align="center">
+  <img src="{{ '/static/decimals.png' | relative_url }}" alt="Excel Decimal Formats example"/> 
+</p>
 </div>

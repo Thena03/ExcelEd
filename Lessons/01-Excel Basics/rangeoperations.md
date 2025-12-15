@@ -39,7 +39,7 @@ Cells are selected by left-clicking on the cell you want to select. More than on
 <h2 class="text-2xl font-semibold text-center mb-4">Selecting a Column</h2>
 
 Columns are selected by left-clicking them. This will select all the cells in the sheet related to the column. 
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/selecting_column.png' | relative_url }}" alt="Selecting a column example"/>
 </p>
@@ -48,7 +48,7 @@ Columns are selected by left-clicking them. This will select all the cells in th
 <h2 class="text-2xl font-semibold text-center mb-4">Selecting a Row</h2>
 
 Rows are selected by left-clicking them. This will select all the cells in the sheet related to the rows. 
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/selecting_row.png' | relative_url }}" alt="Selecting a row example"/>
 </p>
@@ -57,7 +57,7 @@ Rows are selected by left-clicking them. This will select all the cells in the s
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Selecting an Entire Sheet</h2>
 The entire spreadsheet can be selected by clicking the triangle in the top-left corner of the spreadsheet under the name box. 
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/Selecting_sheet.png' | relative_url }}" alt="Selecting an entire sheet example"/>
 </p>
@@ -70,13 +70,13 @@ The entire spreadsheet can be selected by clicking the triangle in the top-left 
 There are two methods to select a range of cells. 
 
 The first method is the Name Box. In the Name Box, you will type in the coordinates of the cells you want.
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/namebox.png' | relative_url }}" alt="Namebox example"/>
 </p>
 <br><br>
 The second method is to drag and mark a range. To drag and mark a range, select a cell and hold the mouse button down. Then move your mouse over the range that you want selected. The range of cells that is marked will turn grey. Then let go of the mouse button when you have marked the range. 
-
+<br><br>
 <p align="center">
   <img src="{{ '/static/dragandmark.png' | relative_url }}" alt="Drag and Mark a Range example"/>
 </p>
@@ -90,11 +90,11 @@ Filling is used to fill ranges with values so that you do not have to type the v
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">How to Fill</h2>
 To fill a range of cells, first select a cell and then click the fill icon. The fill icon is at the bottom right corner of the cell and has the icon of a small square. When you hover over the icon, it will change to a thin cross.
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/howtofill.png' | relative_url }}" alt="How to Fill example"/>
 </p>
-<br><br>
+<br>
  After selecting the fill icon, select the range of cells you want to fill. 
  </div>
 
