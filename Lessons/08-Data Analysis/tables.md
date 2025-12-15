@@ -4,16 +4,17 @@ title: Excel Tables
 order: 2
 ---
 
-
 <h1 class="text-4xl font-semibold text-center mb-4"> Excel Tables</h1><br>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Excel Tables Overview</h2>
 Tables are data structures that makes data organized and easy to understand. Commonly, cell 
 ranges are converted into tables. Tables connect cells in a range and put it into a fixed structure where all of the cells share the same formatting. This allows options for sorting and filtering data, formatting, and autofilling cells.  Please note that tables can be converted back to range. 
+<br><br>
+<p align="center">
+  <img src="{{ '/static/table.png' | relative_url }}" alt="Excel Tables example"/>
+</p> 
 <br>
-Insert example
-<br>
-Tables are commonly used to prepare data for charts and pivot tables. 
+Tables are commonly used to prepare data for charts and pivot tables. <br>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
@@ -46,15 +47,20 @@ The size of a table can be increased or decreased based on the table range. Ther
 <h2 class="text-2xl font-semibold text-center mb-4"> Resizing Table Command</h2>
 This allows you to change the table size by entering a range.
 <br>
-Insert example
+<p align="center">
+  <img src="{{ '/static/resize-tables.png' | relative_url }}" alt="Excel Table Resizing example"/>
+</p> <br>
 </div>
-<br>
+
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Drag to Resize</h2>
 The table can be resized by dragging its corner.
 <br>
-Insert example
+<p align="center">
+  <img src="{{ '/static/drag-to-resize.png' | relative_url }}" alt="Excel Drag to Resize example"/>
+</p> <br> <br>
+In this example, the table is resized to exclude the last two rows in the spreadsheet. <br>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
@@ -63,8 +69,10 @@ Excel has a command that allows you to remove duplicates in tables. Duplicates a
 <br>
 The Remove Duplicate command is found in the Ribbon under the Table Design tab.
 <br>
-Insert example 
-<br>
+<p align="center">
+  <img src="{{ '/static/duplicates.png' | relative_url }}" alt="Excel Remove Duplicates example"/>
+</p>
+<br><br>
 <strong> Warning: </strong> This command does not specify which duplicates will be deleted. 
 </div> 
 <br>
@@ -72,20 +80,23 @@ Insert example
 <h2 class="text-2xl font-semibold text-center mb-4"> Converting Tables to Ranges </h2>
 Tables can be converted to a range by selecting a cell in the table’s range and clicking the convert to Range command.
 <br>
-Insert example
+<p align="center">
+  <img src="{{ '/static/range.png' | relative_url }}" alt="Excel Table To Range example"/>
+</p>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Table Styles</h2>
 The purpose of table styles is to change the appearance of the table. The default table style is Blue, Table Style Medium 2. 
-<br>
-Insert example
-<br>
+<br><br>
 Excel has three main categories for Table styles.
 <ul class="list-disc list-inside">
 <li> Light: Light colors, more white space </li>
 <li> Medium: Medium colors, medium white space </li>
 <li> Dark: Dark colors, less white space </li>
 </ul>
-Insert examples
+<br>
+<p align="center">
+  <img src="{{ '/static/table-styles.png' | relative_url }}" alt="Excel Table Styles example"/>
+</p>
 </div>
