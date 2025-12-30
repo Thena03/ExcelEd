@@ -5,10 +5,19 @@ order: 2
 ---
 
 <h1 class="text-4xl font-semibold text-center mb-4"> Excel Tables</h1><br>
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
+<ul class="list-disc list-inside">
+<li>  </li>
+<li> Learning how to create a table in Excel. </li>
+<li> Learning how to customize table designs/</li>
+<li> Understanding how to resize tables.</li>
+</ul>
+</div>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Excel Tables Overview</h2>
 Tables are data structures that makes data organized and easy to understand. Commonly, cell 
-ranges are converted into tables. Tables connect cells in a range and put it into a fixed structure where all of the cells share the same formatting. This allows options for sorting and filtering data, formatting, and autofilling cells.  Please note that tables can be converted back to range. 
+ranges are converted into tables. <br><br>Tables connect cells in a range and put it into a fixed structure where all of the cells share the same formatting. This allows options for sorting and filtering data, formatting, and autofilling cells.  <br><br> <strong>Please note that tables can be converted back to range. </strong>
 <br><br>
 <p align="center">
   <img src="{{ '/static/table.png' | relative_url }}" alt="Excel Tables example"/>
@@ -28,9 +37,11 @@ Tables can be styled and customized easily. Once a table is created and a cell i
 <li> Formatting </li>
 <li> Table Name </li>
 </ul> <br>
-Excel gives tables default names such as Table 1. However, the name of the table can be adjusted in the Tbale Design Tab in the name input field.
-</div> <br>
+Excel gives tables default names such as Table 1. However, the name of the table can be adjusted in the Table Design Tab in the name input field.
+<br><br>
 <strong>Warning:</strong> Tables cannot be renamed in the Excel Web Version
+</div> 
+
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Table Resizing</h2>
@@ -46,7 +57,7 @@ The size of a table can be increased or decreased based on the table range. Ther
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Resizing Table Command</h2>
 This allows you to change the table size by entering a range.
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/resize-tables.png' | relative_url }}" alt="Excel Table Resizing example"/>
 </p> <br>
@@ -56,7 +67,7 @@ This allows you to change the table size by entering a range.
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Drag to Resize</h2>
 The table can be resized by dragging its corner.
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/drag-to-resize.png' | relative_url }}" alt="Excel Drag to Resize example"/>
 </p> <br> <br>
@@ -66,20 +77,20 @@ In this example, the table is resized to exclude the last two rows in the spread
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Removing Duplicates</h2>
 Excel has a command that allows you to remove duplicates in tables. Duplicates are extra copies of values. This command is commonly used when cleaning a dataset where you do not want copies of values.
-<br>
+<br><br>
 The Remove Duplicate command is found in the Ribbon under the Table Design tab.
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/duplicates.png' | relative_url }}" alt="Excel Remove Duplicates example"/>
 </p>
-<br><br>
+<br>
 <strong> Warning: </strong> This command does not specify which duplicates will be deleted. 
 </div> 
 <br>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Converting Tables to Ranges </h2>
 Tables can be converted to a range by selecting a cell in the table’s range and clicking the convert to Range command.
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/range.png' | relative_url }}" alt="Excel Table To Range example"/>
 </p>
