@@ -29,7 +29,7 @@ To delete cell values, select the original cells and remove them by pressing the
 <strong>Example:</strong>
 <br><br>
 <p align="center">
-  <img src="{{ '/static/to-delete.png' | relative_url }}" alt="Excel Deleting Data example"/> <br> <br>
+  <img src="{{ '/static/to-delete.png' | relative_url }}" alt="Excel Deleting Data example"/> </p><br> <br>
   How the cell looks when the value is deleted:
   <br><br>
 <p align="center">
