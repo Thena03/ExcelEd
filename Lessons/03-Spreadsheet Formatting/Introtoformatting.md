@@ -6,6 +6,15 @@ order: 1
 
 <h1 class="text-4xl font-semibold text-center mb-4">Introduction to Formatting</h1> <br>
 
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h3 class="text-xl font-semibold text-center mb-4"> Learning Objectives </h3>
+<ul class="list-disc list-inside">
+<li> Understanding the purpose behind spreadsheet formatting </li>
+<li> Learning the common spreadsheet formatting styles </li>
+<li> Understanding where spreadsheet formatting options can be accessed.</li>
+</ul>
+</div>
+
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 Excel gives users various ways to format and style a spreadsheet. This helps users make their spreadsheets easier to read and understand.
 <br><br>

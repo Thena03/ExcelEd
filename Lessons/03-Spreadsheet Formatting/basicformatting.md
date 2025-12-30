@@ -40,14 +40,14 @@ The “More Colors” option allows you to select custom colors by entering a RG
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">RGB Colors</h2>
-RGB colors are colors specified with <strong>rgb( RED, GREEN, BLUE)</strong>. Each category defines the intensity of that color as an integer between 0 and 255. 
+RGB colors are colors specified with <strong>rgb( <p style="color:red">RED </p>, <p style="color:green">GREEN</p>, <p style="color:blue">BLUE</p>)</strong>. Each category defines the intensity of that color as an integer between 0 and 255. 
 <br><br>
-For instance, RGB (0, 255, 0) is green. 255 is the highest value, so that means that the cell would be set to be green. 
+For instance, RGB (0, 255, 0) is <p style="color:green">green</p>. 255 is the highest value, so that means that the cell would be set to be green. 
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4"> Hexadecimal Colors (HEX Codes)</h2>
-A hexadecimal is a color specified with <strong>#RRGGBB</strong>. RR(red), GG (green), and BB (blue) are hexadecimal integers between 00 and FF with FF displaying the highest intensity.
+A hexadecimal is a color specified with <strong>#RRGGBB</strong>. <p style="color:red">RR(red)</p>, <p style="color:green">GG (green)</p>, and <p style="color:blue">BB (blue)</p> are hexadecimal integers between 00 and FF with FF displaying the highest intensity.
 <br><br>
-For instance, ##FF0000 is going to be displayed as red since red is set to the highest value and the other values are set to the lowest values. 
+For instance, ##FF0000 is going to be displayed as <p style="color:red">red</p>since <p style="color:red">red</p>is set to the highest value and the other values are set to the lowest values. 
 </div>

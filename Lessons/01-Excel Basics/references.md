@@ -35,20 +35,20 @@ An absolute reference is a reference that utilizes a dollar sign. This dollar si
 <strong>The dollar sign has three different states:</strong>
 <ul class="list-disc list-outside pl-5">
   <li> <strong>Column and Row</strong>
-  <ul class="list-disc list-inside">
+  <ul class="list-disc list-outside pl-8">
     <li> The reference locks both the column and the row. </li>
     <li><strong>Example:</strong> $A$1</li>
   </ul></li>
 
  <li> <strong> Column </strong>
- <ul class="list-disc list-inside">
+ <ul class="list-disc list-outside pl-8">
     <li> The reference is locked to the column. </li>
      <li> The row remains relative (free). </li>
     <li> <strong> Example:</strong> $A1 </li>
   </ul></li>
 
   <li> <strong>Row </strong>
-  <ul class="list-disc list-inside">
+  <ul class="list-disc list-outside pl-8">
     <li> The reference is locked to the row. </li>
     <li> The column remains relative (free). </li>
     <li> <strong>Example:</strong> A$1 </li>

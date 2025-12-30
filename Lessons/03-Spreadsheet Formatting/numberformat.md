@@ -5,6 +5,14 @@ order: 4
 ---
 <h1 class="text-4xl font-bold text-center mb-4">Number Formats </h1> <br>
 
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
+<ul class="list-disc list-inside">
+<li> Learning the common Excel formatting fonts </li>
+<li> Learning the Increase/Decrease Decimal Command </li>
+</ul>
+</div>
+
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 The default number format is General. General means that Excel is displing the numbers in the manner that it is typed. It automatically switches to scientific notation if the number is very large and rounds decimals if the cell is not wide enough. However, the underlying value remains the same. 
 <br><br>

@@ -6,17 +6,28 @@ order: 3
 
 <h1 class="text-4xl font-semibold text-center mb-4">Formatting Fonts:</h1>
 
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
+<ul class="list-disc list-inside">
+<li> Learning the common Excel formatting fonts </li>
+<li> Understanding how colors can be applied to fonts </li>
+<li> Understanding how font sizes are adjusted in Excel </li>
+</ul>
+</div>
+
+<div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 There are various ways to format fonts in Excel. The most common ways are: 
 <ul class="list-disc list-inside">
 <li>Color </li>
 <li>Font name </li>
 <li>Size </li>
 </ul> <br>
+</div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Font Colors</h2>
 The default color for fonts is black. Colors can be applied to fonts by using the “Font color” function. The Font color command remembers the color used last time. 
-
+<br><br>
 <p align="center">
   <img src="{{ '/static/font-colors.png' | relative_url }}" alt="Excel Font Colors example"/> </p>
 </div>
@@ -24,15 +35,15 @@ The default color for fonts is black. Colors can be applied to fonts by using th
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Font Types</h2>
 The default font used in Excel is Calibri. Font types can be changed using the font name drop-down menu. 
-
+<br><br>
 <p align="center">
-  <img src="{{ '/static/font-type.png' | relative_url }}" alt="Excel Font Types example"/>
+  <img src="{{ '/static/font-type.png' | relative_url }}" alt="Excel Font Types example"/> </p>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Font Size</h2>
 The default font size used in Excel is 11. The size of fonts can be changed using the dropdown menu next to the font name. 
-
+<br><br>
 <p align="center">
   <img src="{{ '/static/font-size.png' | relative_url }}" alt="Excel Font Size example"/>
 </p>

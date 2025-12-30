@@ -29,7 +29,7 @@ This same method can also be used to add a row. To add a row, right-click the ro
 <br>
 The second method is to use the insert rows and columns option in the Home tab (on the web version) from the Ribbon. The Home tab gives you an option to insert rows and columns next to the column/row you have selected.
 <br><br>
-Inserting Rows from the Home Tab Example: <br>
+<strong> Example: </strong> <br> <br>
 <p align="center">
   <img src="{{ '/static/insert-row-ribbon.png' | relative_url }}" alt="Excel Insert Row example"/>
 </p>
