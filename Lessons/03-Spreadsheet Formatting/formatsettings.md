@@ -25,7 +25,7 @@ Excel provides regional formatting settings for different styles and languages o
 <ul class="list-disc list-outside">
     <li> Symbols used to separate arguments in a function </li>
     <li> Most common symbols for delimiters are commas and semicolons </li>
-</ul>
+</ul> </li>
 </ul>
 </div>
 
