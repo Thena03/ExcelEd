@@ -20,14 +20,16 @@ Excel can be found in many different digital forms. This tutorial will describe 
 <br>
 <br>
 Microsoft Office 365 is the web version of Excel. It is the easiest way to access the program since it does not require any installation. This can be accessed through 
-[Microsoft Office 365](https://www.office.com).
+<a href="https://www.office.com">Microsoft Office 365</a>
+
 <br><br>
 <p align="center">
   <img src="{{ '/static/excel-web.jpeg' | relative_url }}" alt="Excel Adding Data example">
 </p>
 <br>
 <br>
-To access Excel on [Microsoft Office 365](https://www.office.com), first log in to your Microsoft account.
+To access Excel on <a href="https://www.office.com">Microsoft Office 365</a>
+, first log in to your Microsoft account.
 <br> <br>
 If you do not have a Microsoft account, please follow the quick and easy sign-up instructions on the website. Once you are logged in, click on the green spreadsheet icon on the left side to enter the application.
 <br><br>

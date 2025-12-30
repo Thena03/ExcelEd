@@ -26,7 +26,7 @@ To add data to a cell, select and double click a cell. Then type in the data you
 <h2 class="text-2xl font-semibold text-center mb-4">Deleting Data in a Cell</h2>
 To delete cell values, select the original cells and remove them by pressing the “Delete” button on the keyboard. 
 <br><br>
-Example:
+<strong>Example:</strong>
 <br><br>
 <p align="center">
   <img src="{{ '/static/to-delete.png' | relative_url }}" alt="Excel Deleting Data example"/> <br> <br>
@@ -34,6 +34,6 @@ Example:
   <br><br>
 <p align="center">
   <img src="{{ '/static/deleted.png' | relative_url }}" alt="Excel Deleting Data example"/>
-
+</p>
 </div>
 

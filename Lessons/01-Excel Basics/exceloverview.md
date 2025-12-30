@@ -30,6 +30,7 @@ When you open a new blank workbook, you will be greeted with a large spreadsheet
 <h2 class="text-2xl font-semibold text-center mb-4">The Ribbon</h2>
 
 The ribbon is a row of tabs and commands at the top of the Excel workbook that helps you perform tasks. It also provides Excel commands shortcuts. A command allows you to execute an action. This command could be to change a font size, inserting a table, or inserting a column or row. <br>
+<br>
 <p align="center">
   <img src="{{ '/static/ribbon.png' | relative_url }}" alt="Excel Ribbon example"/>
 </p>
@@ -50,7 +51,7 @@ The ribbon is a row of tabs and commands at the top of the Excel workbook that h
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">The Sheet</h2>
 The sheet is a set of rows and columns. The rectangle boxes in the sheet are called cells. The values that are allowed in cells are both numbers and letters. Each cell has a unique reference, which is called by its coordinates. 
-<br>
+<br> <br>
 <p align="center">
   <img src="{{'/static/Sheet.png' | relative_url }}" alt="Excel Sheets example"/>
 </p>
@@ -69,8 +70,8 @@ When opening a workbook, you start with one Sheet by default. If you want to add
 <p align="center">
   <img src="{{'/static/adding_sheets.png' | relative_url }}" alt="Excel Adding Sheets example"/>
 </p>
-<br> <br>
-<strong>Tip:</strong> You can use the keyboard shortcut,  <strong>Shift + F11</strong>.
+<br> 
+<strong>Tip:</strong> You can use the keyboard shortcut,  <strong>Shift + F11</strong> to also add a sheet tab.
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">

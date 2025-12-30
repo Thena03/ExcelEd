@@ -6,6 +6,15 @@ order: 2
 
 <h1 class="text-4xl font-semibold text-center mb-4">Introduction to Excel:</h1>
 
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h3 class="text-xl font-semibold mb-4">Learning Objectives</h3>
+<ul class="list-disc list-inside">
+<li> The purpose of Excel </li>
+<li> Understanding common Excel functions</li>
+<li> Digital platforms to use Excel</li>
+</ul>
+</div>
+
 Excel is a spreadsheet software created by Microsoft used for organizing, analyzing, and visualizing data. This program organizes data in columns and rows.
 <br>
 <br>

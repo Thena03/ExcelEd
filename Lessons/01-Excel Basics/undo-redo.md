@@ -14,9 +14,11 @@ order: 5
 <li> Understanding the parameters of the undo button. </li> 
 </ul>
 </div> <br>
-The Undo function allows you to reverse an action. This function is useful when you have made a mistake in your spreadsheet and want to go back to the way the spreadsheet looked before. <br><br>
+<div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+The <strong>Undo</strong> function allows you to reverse an action. This function is useful when you have made a mistake in your spreadsheet and want to go back to the way the spreadsheet looked before. <br><br>
 
-<strong>Warning:</strong>You cannot undo actions such as deleting a sheet or sheet tab, saving a spreadsheet, or changing the options. You can only undo things inside your spreadsheet.  <br><br>
+<strong>Warning:</strong> You cannot undo actions such as deleting a sheet or sheet tab, saving a spreadsheet, or changing the options. You can only undo things inside your spreadsheet.  <br><br>
+</div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">The Undo function</h2>
@@ -25,7 +27,7 @@ To use the undo function, press the function in the Ribbon.
 <p align="center">
   <img src="{{ '/static/undo_function.png' | relative_url }}" alt="Excel Undo Function example"/>
 </p>
-<br><br>
+<br>
 <strong>Tip:</strong> You can also use the keyboard shortcut <strong>CTRL + Z/Command + Z</strong> to undo actions. 
 </div>
 

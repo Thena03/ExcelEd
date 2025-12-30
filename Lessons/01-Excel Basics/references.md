@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: Relative v. Absolute References 
-order: 7
+order: 8
 ---
 
 <h1 class="text-4xl font-semibold text-center mb-4">Relative v. Absolute References</h1>
@@ -14,8 +14,9 @@ order: 7
 <li> Understanding the purpose behind absolute references </li>
 </ul>
 </div>
-<br>
-Cells have unique references (also known as their location in the spreadsheet). The two types of references in Excel are relative references and absolute references. 
+
+<div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+Cells have unique references (also known as their location in the spreadsheet). The two types of references in Excel are relative references and absolute references. </div>
 <br> <br>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Relative Reference</h2>
@@ -32,8 +33,8 @@ References are relative by default. They are marked without a dollar sign ($). T
 An absolute reference is a reference that utilizes a dollar sign. This dollar sign indicates that the cell(s) are locked. 
 <br><br>
 <strong>The dollar sign has three different states:</strong>
-<ul class="list-disc list-inside">
-  <li><strong>Column and Row</strong>
+<ul class="list-disc list-outside pl-5">
+  <li> <strong>Column and Row</strong>
   <ul class="list-disc list-inside">
     <li> The reference locks both the column and the row. </li>
     <li><strong>Example:</strong> $A$1</li>
@@ -51,5 +52,5 @@ An absolute reference is a reference that utilizes a dollar sign. This dollar si
     <li> The reference is locked to the row. </li>
     <li> The column remains relative (free). </li>
     <li> <strong>Example:</strong> A$1 </li>
-  </ul></li>
+  </ul></li> </ul>
 </div>
