@@ -63,3 +63,4 @@ Excel offers the following cell rule types:
   <li><strong>Example:</strong> Highlight <strong>unique email addresses</strong></li></ul>
 </li>
 </ul>
+</div>
