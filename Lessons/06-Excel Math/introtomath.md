@@ -8,7 +8,6 @@ order: 1
 <div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
 <ul class="list-disc list-inside">
-<li>  </li>
 <li> Learning the how to utilize common arithmetic operations in Excel. </li>
 <li> Learning how to use absolute reference when using arithmetic operations. </li>
 
@@ -63,7 +62,7 @@ What happens? Excel multiplies 50 by the locked tax rate (0.06). When you drag t
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Division Operator</h2>
-Division uses the / symbol in Excel. 
+Division uses the / symbol in Excel. <br><br>
 <p align="center">
   <img src="{{ '/static/divide.png' | relative_url }}" alt="Excel Division example"/> </p>
   </div>
