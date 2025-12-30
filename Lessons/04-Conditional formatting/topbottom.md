@@ -13,7 +13,7 @@ title: Top Bottom Rules
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Top/ Bottom Rules</h2>
-The <strong>Top/Bottom Rules</strong> will highlight cells with one of the following appearance options based on the cell value being the top or bottom values in a range: <br>
+The <strong>Top/Bottom Rules</strong> will highlight cells with one of the following appearance options based on the cell value being the top or bottom values in a range: <br><br>
 <ul class="list-disc list-inside">
 <li> Light Red Fill with Dark Red Text </li>
 <li> Yellow Fill with Dark Yellow Text </li>
@@ -30,7 +30,7 @@ The <strong>Top/Bottom Rules</strong> will highlight cells with one of the follo
 </p>
 <br>
 This same rule applies for <strong>Above and Below Average rules</strong>. This will highlight cells with one of the appearance options based on the cell value being above or below the average value in a range. 
-<br>
+<br><br>
 <p align="center">
   <img src="{{ '/static/above-below-average.png' | relative_url }}" alt="Above/Below Average example"/>
 </p>
