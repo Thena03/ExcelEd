@@ -8,7 +8,6 @@ title: PivotTable
 <div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
 <ul class="list-disc list-inside">
-<li>  </li>
 <li> Learning the purpose of PivotTables. </li>
 <li> Learning how to create a PivotTable in Excel. </li>
 </ul>
@@ -17,7 +16,7 @@ title: PivotTable
 <h2 class="text-2xl font-semibold mb-4"> PivotTable </h2>
 PivotTable is a functionality in Excel that helps you organize and analyze large datasets. It allows you to add and remove values, perform calculations, and filter and sort data sets. 
 <br><br>
-<strong>Note:</strong>The data that you use needs to be in table format. 
+<strong>Note:</strong> The data that you use needs to be in table format. 
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
