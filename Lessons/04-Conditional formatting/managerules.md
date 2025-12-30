@@ -3,9 +3,16 @@ layout: lesson
 title: Manage Cell Rules
 ---
 
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
+<ul class="list-disc list-inside">
+<li> Understanding the function of the Manage Rules feature. </li>
+<li> Learning the Clear Rules Feature. </li>
+</ul>
+</div>
+
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Manage Rules</h2>
-<br>
 Conditional Formatting rules can be managed and removed using the Clear Rules and Manage Rules feature. 
 <br>
 The Clear Rules feature removes all rules from selected cells or from the entire spreadsheet.

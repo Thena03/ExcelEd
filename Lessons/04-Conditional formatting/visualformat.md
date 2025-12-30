@@ -2,7 +2,14 @@
 layout: lesson
 title: Visual Conditional Formatting Elements
 ---
-<h1 class="text-4xl font-semibold text-center mb-4"> Visual Conditional Formatting Elements</h1>
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
+<ul class="list-disc list-inside">
+<li> Understanding how data bars are used with conditional formatting. </li>
+<li> Learning Excel's color scales feature. </li>
+<li> Learning the purpose of icon sets. </li>
+</ul>
+</div>
 <br>
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Data Bars</h2>

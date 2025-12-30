@@ -3,8 +3,18 @@ layout: lesson
 title: Conditional Formatting
 ---
 
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
+<ul class="list-disc list-inside">
+<li> Understanding what conditional formatting is. </li>
+<li> Learning the Highlight Cell Rules. </li>
+<li> Understanding the various Excel appearance options. </li>
+</ul>
+</div>
+
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Conditional Formatting </h2>
+
 
 Conditional Formatting changes the appearance of cells in a range based on specified conditions you set. These conditions are based on specified numerical values or matching text. 
 <br><br>
