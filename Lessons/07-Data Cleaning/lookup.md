@@ -5,14 +5,23 @@ order: 3
 ---
 <h1 class="text-4xl font-semibold text-center mb-4"> Searching Functions</h1>
 <br>
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
+<ul class="list-disc list-inside">
+<li>  </li>
+<li> Understanding the VLOOKUP Function. </li>
+<li> Understanding the LEFT and RIGHT Functions in Excel.</li>
+</ul>
+</div>
+
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4"> VLOOKUP</h2>
 This function allows searches across columns.
-<br>
+<br><br>
 It is typed =VLOOKUP
-<br>
+<br><br>
 =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
-<br>
+<br><br>
 <strong> Lookup_value: </strong> Select the cell where search values will be entered.
 <br>
 <strong> Table_array: </strong> The table range, including all cells in the table.
@@ -27,7 +36,7 @@ It is typed =VLOOKUP
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4"> LEFT Function</h2>
 This function is used to retrieve a specified number of characters (ex. letters, numbers, etc.), counting from the left side of an Excel cell. The chosen number has to be greater than 0 and is set to 1 by default.
-<br>
+<br><br>
 It is typed =LEFT <br><br>
 <p align="center">
   <img src="{{ '/static/Left.png' | relative_url }}" alt="Excel =LEFT example"/>
@@ -38,7 +47,7 @@ In this example, the output would be "numb" since these are the first 4 characte
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4"> RIGHT Function</h2>
 This function is used to retrieve a specified number of characters, counting from the right side of an Excel cell. The chosen number has to be greater than 0 and is set to 1 by default.
-<br>
+<br><br>
 It is typed =RIGHT <br><br>
 <p align="center">
   <img src="{{ '/static/Right.png' | relative_url }}" alt="Excel =RIGHT example"/>
