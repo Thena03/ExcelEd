@@ -5,11 +5,20 @@ order: 1
 ---
 <h1 class="text-4xl font-semibold text-center mb-4"> Arithmetic Operations</h1>
 <br>
+<div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
+<h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
+<ul class="list-disc list-inside">
+<li>  </li>
+<li> Learning the how to utilize common arithmetic operations in Excel. </li>
+<li> Learning how to use absolute reference when using arithmetic operations. </li>
+
+</ul>
+</div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Addition Operators</h2>
 Addition uses the + symbol in Excel in order to add cell values together. This can be used either with the + symbol or by using the SUM function. 
-<br>
+<br> <br>
 <p align="center">
   <img src="{{ '/static/sum-math.png' | relative_url }}" alt="Excel Addition example"/> </p>
 <br>
@@ -17,14 +26,14 @@ Addition uses the + symbol in Excel in order to add cell values together. This c
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Subtraction Operators</h2>
-Subtraction uses the - operator to subtract cell values. 
+Subtraction uses the - operator to subtract cell values.  <br><br>
 <p align="center">
-  <img src="{{ '/static/substract.png' | relative_url }}" alt="Excel Subtraction example"/> </p>
+  <img src="{{ '/static/subtract.png' | relative_url }}" alt="Excel Subtraction example"/> </p>
 </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
 <h2 class="text-2xl font-semibold text-center mb-4"> Multiplication Operators</h2>
-To multiply cell values, use the * symbol in Excel. 
+To multiply cell values, use the * symbol in Excel. <br><br>
 <p align="center">
   <img src="{{ '/static/multiply.png' | relative_url }}" alt="Excel Multiplication example"/> </p>
 </div>
@@ -45,8 +54,7 @@ How to do it, step by step:
 </ul>
 <br> <br>
 Example Scenario: Cell B1 contains a tax rate (e.g., 0.06). Column A contains item prices.
-<br><br>
-Mini Example: You have prices in column A and a fixed tax rate in cell B1.
+You have prices in column A and a fixed tax rate in cell B1. You want to calculate the price of the items with the tax.
 <br><br>
 Formula: =A2*$B$1
 <br><br>
@@ -57,7 +65,7 @@ What happens? Excel multiplies 50 by the locked tax rate (0.06). When you drag t
 <h2 class="text-2xl font-semibold text-center mb-4"> Division Operator</h2>
 Division uses the / symbol in Excel. 
 <p align="center">
-  <img src="{{ '/divide.png' | relative_url }}" alt="Excel Division example"/> </p>
+  <img src="{{ '/static/divide.png' | relative_url }}" alt="Excel Division example"/> </p>
   </div>
 
 <div class="bg-white border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm"> 
