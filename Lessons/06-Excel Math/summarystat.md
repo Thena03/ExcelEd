@@ -8,7 +8,6 @@ order: 3
 <div class="bg-blue-50 border-l-4 border-green-600 p-4 rounded-lg mb-6 shadow-sm">
 <h2 class="text-2xl font-semibold text-center mb-4">Learning Objectives:</h2>
 <ul class="list-disc list-inside">
-<li>  </li>
 <li> Learning the common summary stats in Excel. </li>
 </ul>
 </div>
