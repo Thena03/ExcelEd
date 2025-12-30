@@ -39,8 +39,8 @@ To fill a range of cells, first select a cell and then click the fill icon. The 
 <li> Sequences : A sequence is an order. The filling function is used to continue an order of values that has been set.</li>
 
 <li> Dates : to fill in dates in cells
-<br>
-<strong>Tip:</strong> the date format depends on your regional language settings </li>
-<li> Functions: You will learn more in a later section.  </li> 
+</li>
+<li> Functions: You will learn more in a later section.  </li> <br><br> 
+<strong>Tip:</strong> the date format depends on your regional language settings 
 </ul>
 </div>
